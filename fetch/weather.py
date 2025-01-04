@@ -1,6 +1,6 @@
 from typing import Dict, Any
 
-from models.weather import Weather
+from python_models.weather import Weather
 
 def create_weather(weather_data: Dict[str, Any]) -> Weather:
     return Weather(

@@ -1,7 +1,7 @@
 from typing import List
 
-from models.athlete import Athlete
-from models.stat import Stat
+from python_models.athlete import Athlete
+from python_models.stat import Stat
 
 class PlayParticipant:
     def __init__(

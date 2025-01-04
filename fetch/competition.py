@@ -1,7 +1,7 @@
 import datetime
 from typing import Dict, Any
 
-from models.competition import Competition
+from python_models.competition import Competition
 from fetch.util import fetch_all_items
 from fetch.competitor import create_competitors
 from fetch.venue import create_venue

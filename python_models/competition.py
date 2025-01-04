@@ -1,9 +1,9 @@
 import datetime
 from typing import List
 
-from models.venue import Venue
-from models.competitor import Competitor
-from models.drive import Drive
+from python_models.venue import Venue
+from python_models.competitor import Competitor
+from python_models.drive import Drive
 
 class Competition:
     def __init__(

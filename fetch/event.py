@@ -1,7 +1,7 @@
 from typing import Dict, Any, List
 
 from fetch.util import fetch_page
-from models.event import Event
+from python_models.event import Event
 from fetch.weather import create_weather
 from fetch.competition import create_competition
 

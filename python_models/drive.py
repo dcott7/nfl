@@ -1,6 +1,6 @@
 from typing import List
 
-from models.play import Play
+from python_models.play import Play
 
 class Drive:
     def __init__(

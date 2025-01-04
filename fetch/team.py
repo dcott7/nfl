@@ -3,7 +3,7 @@ from typing import Dict, Any, List
 
 from fetch.util import fetch_all_refs, fetch_page
 from fetch.athlete import create_athletes
-from models.team import Team
+from python_models.team import Team
 
 def create_team(team_data: Dict[str, Any], load_athletes: bool = False) -> Team:
     """Creates a Team object from Dictionary."""

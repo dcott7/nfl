@@ -1,6 +1,6 @@
 from typing import List
 
-from models.play_participant import PlayParticipant
+from python_models.play_participant import PlayParticipant
 
 class Play:
     def __init__(

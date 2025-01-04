@@ -1,6 +1,6 @@
 from typing import Dict, Any, List
 
-from models.competitor import Competitor
+from python_models.competitor import Competitor
 from fetch.util import fetch_page
 
 def create_competitor(competitor_data: Dict[str, Any]) -> Competitor:

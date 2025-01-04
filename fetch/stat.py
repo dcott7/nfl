@@ -1,6 +1,6 @@
 from typing import Dict, Any, List
 
-from models.stat import Stat
+from python_models.stat import Stat
 
 def create_stat(stat_data: Dict[str, Any]) -> Stat:
     """Creates a Stat player."""

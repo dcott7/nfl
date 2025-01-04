@@ -1,6 +1,6 @@
 from typing import Dict, Any, List
 
-from models.play import Play
+from python_models.play import Play
 from fetch.play_participant import create_participants
 
 def create_play(play_data: Dict[str, Any]) -> Play:

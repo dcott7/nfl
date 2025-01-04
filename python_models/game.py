@@ -1,8 +1,8 @@
 import datetime
 from typing import List
 
-from models.team import Team
-from models.drive import Drive
+from python_models.team import Team
+from python_models.drive import Drive
 
 class Game:
     def __init__(self, away_team: Team, home_team: Team, date: datetime.datetime):

@@ -4,7 +4,7 @@ import time
 import json
 from typing import List, Dict, Any
 
-from models.logger import Logger
+from python_models.logger import Logger
 
 def fetch_page(url: str) -> Dict[str, Any]:
     """Fetch a single page and return its JSON data."""

@@ -1,6 +1,6 @@
 from typing import Dict, Any
 
-from models.venue import Venue
+from python_models.venue import Venue
 
 def create_venue(venue_data: Dict[str,Any]) -> Venue:
     venue = Venue(

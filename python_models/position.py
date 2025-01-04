@@ -14,7 +14,7 @@ class PositionEnum(Enum):
     # defense
     DT: str = 'dt'
     DE: str = 'de'
-    LB: str = 'olb'
+    LB: str = 'lb'
     CB: str = 'cb'
     S: str = 's'
 

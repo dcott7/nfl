@@ -1,7 +1,7 @@
 # http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2024/types/2/weeks/11/events?lang=en&region=us
 
-from models.weather import Weather
-from models.competition import Competition
+from python_models.weather import Weather
+from python_models.competition import Competition
 
 class Event:
     def __init__(

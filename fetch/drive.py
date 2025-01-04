@@ -1,6 +1,6 @@
 from typing import List, Dict, Any
 
-from models.drive import Drive
+from python_models.drive import Drive
 from fetch.play import create_plays
 
 def create_drive(drive_data: Dict[str, Any]) -> Drive:

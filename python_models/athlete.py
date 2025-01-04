@@ -1,8 +1,8 @@
 from typing import List
 
-from models.position import PositionEnum
-from models.development import DevelopmentTrait
-from models.rating import Rating, RatingType
+from python_models.position import PositionEnum
+from python_models.development import DevelopmentTrait
+from python_models.rating import Rating, RatingType
 
 class Athlete:
     def __init__(

@@ -1,6 +1,6 @@
 from typing import Dict, Any, List
 
-from models.play_participant import PlayParticipant
+from python_models.play_participant import PlayParticipant
 from fetch.stat import create_stats
 from fetch.util import fetch_page
 from fetch.athlete import get_or_create_athlete

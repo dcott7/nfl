@@ -1,8 +1,8 @@
 import requests
 from typing import Dict, Any, List
 
-from models.athlete import Athlete
-from models.position import PositionEnum
+from python_models.athlete import Athlete
+from python_models.position import PositionEnum
 from fetch.util import fetch_page
 from fetch.athlete_rating import get_player_ratings
 
