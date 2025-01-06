@@ -1,0 +1,3112 @@
+{
+    "categories": [
+        {
+            "name": "passing",
+            "displayName": "Passing",
+            "count": 11
+        },
+        {
+            "name": "rushing",
+            "displayName": "Rushing",
+            "count": 5
+        }
+    ],
+    "filters": [
+        {
+            "displayName": "League",
+            "name": "league",
+            "value": "nfl",
+            "options": [
+                {
+                    "value": "college-football",
+                    "displayValue": "NCAA - Football",
+                    "shortDisplayName": "NCAAF"
+                },
+                {
+                    "value": "nfl",
+                    "displayValue": "National Football League",
+                    "shortDisplayName": "NFL"
+                }
+            ]
+        },
+        {
+            "displayName": "Season",
+            "name": "season",
+            "value": "2024",
+            "options": [
+                {
+                    "value": "2024",
+                    "displayValue": "2024"
+                },
+                {
+                    "value": "2023",
+                    "displayValue": "2023"
+                },
+                {
+                    "value": "2022",
+                    "displayValue": "2022"
+                },
+                {
+                    "value": "2021",
+                    "displayValue": "2021"
+                },
+                {
+                    "value": "2020",
+                    "displayValue": "2020"
+                },
+                {
+                    "value": "2019",
+                    "displayValue": "2019"
+                },
+                {
+                    "value": "2018",
+                    "displayValue": "2018"
+                },
+                {
+                    "value": "2017",
+                    "displayValue": "2017"
+                },
+                {
+                    "value": "2016",
+                    "displayValue": "2016"
+                },
+                {
+                    "value": "2015",
+                    "displayValue": "2015"
+                },
+                {
+                    "value": "2014",
+                    "displayValue": "2014"
+                },
+                {
+                    "value": "2013",
+                    "displayValue": "2013"
+                },
+                {
+                    "value": "2012",
+                    "displayValue": "2012"
+                },
+                {
+                    "value": "2011",
+                    "displayValue": "2011"
+                }
+            ]
+        }
+    ],
+    "labels": [
+        "CMP",
+        "ATT",
+        "YDS",
+        "CMP%",
+        "AVG",
+        "TD",
+        "INT",
+        "LNG",
+        "SACK",
+        "RTG",
+        "QBR",
+        "CAR",
+        "YDS",
+        "AVG",
+        "TD",
+        "LNG"
+    ],
+    "names": [
+        "completions",
+        "passingAttempts",
+        "passingYards",
+        "completionPct",
+        "yardsPerPassAttempt",
+        "passingTouchdowns",
+        "interceptions",
+        "longPassing",
+        "sacks",
+        "QBRating",
+        "adjQBR",
+        "rushingAttempts",
+        "rushingYards",
+        "yardsPerRushAttempt",
+        "rushingTouchdowns",
+        "longRushing"
+    ],
+    "displayNames": [
+        "Completions",
+        "Passing Attempts",
+        "Passing Yards",
+        "Completion Percentage",
+        "Yards Per Pass Attempt",
+        "Passing Touchdowns",
+        "Interceptions",
+        "Longest Pass",
+        "Total Sacks",
+        "Passer Rating",
+        "Adjusted QBR",
+        "Rushing Attempts",
+        "Rushing Yards",
+        "Yards Per Rush Attempt",
+        "Rushing Touchdowns",
+        "Long Rushing"
+    ],
+    "events": {
+        "401671640": {
+            "id": "401671640",
+            "links": [
+                {
+                    "language": "en",
+                    "rel": [
+                        "summary",
+                        "desktop",
+                        "event"
+                    ],
+                    "href": "https://www.espn.com/nfl/game/_/gameId/401671640/panthers-commanders",
+                    "text": "Gamecast",
+                    "shortText": "Summary",
+                    "isExternal": false,
+                    "isPremium": false
+                },
+                {
+                    "language": "en",
+                    "rel": [
+                        "summary",
+                        "sportscenter",
+                        "app",
+                        "event"
+                    ],
+                    "href": "sportscenter://x-callback-url/showGame?sportName=football&leagueAbbrev=nfl&gameId=401671640",
+                    "text": "Gamecast",
+                    "shortText": "Summary",
+                    "isExternal": false,
+                    "isPremium": false
+                },
+                {
+                    "language": "en",
+                    "rel": [
+                        "now",
+                        "desktop",
+                        "event"
+                    ],
+                    "href": "https://www.espn.com/nfl/game/_/gameId/401671640",
+                    "text": "Now",
+                    "shortText": "Now",
+                    "isExternal": false,
+                    "isPremium": false
+                },
+                {
+                    "language": "en",
+                    "rel": [
+                        "teamstats",
+                        "desktop",
+                        "event"
+                    ],
+                    "href": "https://www.espn.com/nfl/matchup?gameId=401671640",
+                    "text": "Team Stats",
+                    "shortText": "Team Stats",
+                    "isExternal": false,
+                    "isPremium": false
+                },
+                {
+                    "language": "en",
+                    "rel": [
+                        "boxscore",
+                        "desktop",
+                        "event"
+                    ],
+                    "href": "https://www.espn.com/nfl/boxscore/_/gameId/401671640",
+                    "text": "Box Score",
+                    "shortText": "Box Score",
+                    "isExternal": false,
+                    "isPremium": false
+                },
+                {
+                    "language": "en",
+                    "rel": [
+                        "boxscore",
+                        "sportscenter",
+                        "app",
+                        "event"
+                    ],
+                    "href": "sportscenter://x-callback-url/showGame?sportName=football&leagueAbbrev=nfl&gameId=401671640",
+                    "text": "Box Score",
+                    "shortText": "Box Score",
+                    "isExternal": false,
+                    "isPremium": false
+                },
+                {
+                    "language": "en",
+                    "rel": [
+                        "gamecast",
+                        "desktop",
+                        "event"
+                    ],
+                    "href": "https://www.espn.com/nfl/gamecast/_/gameId/401671640",
+                    "text": "Gamecast",
+                    "shortText": "Gamecast",
+                    "isExternal": false,
+                    "isPremium": false
+                },
+                {
+                    "language": "en",
+                    "rel": [
+                        "gamecast",
+                        "mobile",
+                        "event"
+                    ],
+                    "href": "https://m.espn.com/nfl/gamecast?gameId=401671640&action=summary",
+                    "text": "Gamecast",
+                    "shortText": "Gamecast",
+                    "isExternal": false,
+                    "isPremium": false
+                },
+                {
+                    "language": "en",
+                    "rel": [
+                        "gamecast",
+                        "sportscenter",
+                        "app",
+                        "event"
+                    ],
+                    "href": "sportscenter://x-callback-url/showGame?sportName=football&leagueAbbrev=nfl&gameId=401671640",
+                    "text": "Gamecast",
+                    "shortText": "Gamecast",
+                    "isExternal": false,
+                    "isPremium": false
+                },
+                {
+                    "language": "en",
+                    "rel": [
+                        "recap",
+                        "desktop",
+                        "event"
+                    ],
+                    "href": "https://www.espn.com/nfl/recap?gameId=401671640",
+                    "text": "Recap",
+                    "shortText": "Recap",
+                    "isExternal": false,
+                    "isPremium": false
+                },
+                {
+                    "language": "en",
+                    "rel": [
+                        "pbp",
+                        "desktop",
+                        "event"
+                    ],
+                    "href": "https://www.espn.com/nfl/playbyplay/_/gameId/401671640",
+                    "text": "Play-by-Play",
+                    "shortText": "Play-by-Play",
+                    "isExternal": false,
+                    "isPremium": false
+                },
+                {
+                    "language": "en",
+                    "rel": [
+                        "videos",
+                        "desktop",
+                        "event"
+                    ],
+                    "href": "https://www.espn.com/nfl/video?gameId=401671640",
+                    "text": "Videos",
+                    "shortText": "Videos",
+                    "isExternal": false,
+                    "isPremium": false
+                }
+            ],
+            "week": 7,
+            "atVs": "@",
+            "gameDate": "2024-10-20T20:05:00.000+00:00",
+            "score": "40-7",
+            "homeTeamId": "28",
+            "awayTeamId": "29",
+            "homeTeamScore": "40",
+            "awayTeamScore": "7",
+            "gameResult": "L",
+            "opponent": {
+                "id": "28",
+                "uid": "s:20~l:28~t:28",
+                "displayName": "Washington Commanders",
+                "abbreviation": "WSH",
+                "links": [
+                    {
+                        "language": "en",
+                        "rel": [
+                            "clubhouse",
+                            "desktop",
+                            "team"
+                        ],
+                        "href": "https://www.espn.com/nfl/team/_/name/wsh/washington-commanders",
+                        "text": "Clubhouse",
+                        "shortText": "Clubhouse",
+                        "isExternal": false,
+                        "isPremium": false
+                    },
+                    {
+                        "language": "en",
+                        "rel": [
+                            "roster",
+                            "desktop",
+                            "team"
+                        ],
+                        "href": "https://www.espn.com/nfl/team/roster/_/name/wsh/washington-commanders",
+                        "text": "Roster",
+                        "shortText": "Roster",
+                        "isExternal": false,
+                        "isPremium": false
+                    },
+                    {
+                        "language": "en",
+                        "rel": [
+                            "stats",
+                            "desktop",
+                            "team"
+                        ],
+                        "href": "https://www.espn.com/nfl/team/stats/_/name/wsh/washington-commanders",
+                        "text": "Statistics",
+                        "shortText": "Statistics",
+                        "isExternal": false,
+                        "isPremium": false
+                    },
+                    {
+                        "language": "en",
+                        "rel": [
+                            "schedule",
+                            "desktop",
+                            "team"
+                        ],
+                        "href": "https://www.espn.com/nfl/team/schedule/_/name/wsh",
+                        "text": "Schedule",
+                        "shortText": "Schedule",
+                        "isExternal": false,
+                        "isPremium": false
+                    },
+                    {
+                        "language": "en",
+                        "rel": [
+                            "photos",
+                            "desktop",
+                            "team"
+                        ],
+                        "href": "https://www.espn.com/nfl/team/photos/_/name/wsh",
+                        "text": "photos",
+                        "shortText": "photos",
+                        "isExternal": false,
+                        "isPremium": false
+                    },
+                    {
+                        "language": "en",
+                        "rel": [
+                            "tickets",
+                            "desktop",
+                            "team"
+                        ],
+                        "href": "https://www.vividseats.com/washington-commanders-tickets--sports-nfl-football/performer/925?wsUser=717",
+                        "text": "Tickets",
+                        "shortText": "Tickets",
+                        "isExternal": true,
+                        "isPremium": false
+                    },
+                    {
+                        "language": "en",
+                        "rel": [
+                            "draftpicks",
+                            "desktop",
+                            "team"
+                        ],
+                        "href": "https://www.espn.com/nfl/draft/teams/_/name/wsh/washington-commanders",
+                        "text": "Draft Picks",
+                        "shortText": "Draft Picks",
+                        "isExternal": false,
+                        "isPremium": true
+                    },
+                    {
+                        "language": "en",
+                        "rel": [
+                            "transactions",
+                            "desktop",
+                            "team"
+                        ],
+                        "href": "https://www.espn.com/nfl/team/transactions/_/name/wsh",
+                        "text": "Transactions",
+                        "shortText": "Transactions",
+                        "isExternal": false,
+                        "isPremium": false
+                    },
+                    {
+                        "language": "en",
+                        "rel": [
+                            "injuries",
+                            "desktop",
+                            "team"
+                        ],
+                        "href": "https://www.espn.com/nfl/team/injuries/_/name/wsh",
+                        "text": "Injuries",
+                        "shortText": "Injuries",
+                        "isExternal": false,
+                        "isPremium": false
+                    },
+                    {
+                        "language": "en",
+                        "rel": [
+                            "depthchart",
+                            "desktop",
+                            "team"
+                        ],
+                        "href": "https://www.espn.com/nfl/team/depth/_/name/wsh",
+                        "text": "Depth Chart",
+                        "shortText": "Depth Chart",
+                        "isExternal": false,
+                        "isPremium": false
+                    }
+                ],
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png"
+            },
+            "leagueName": "National Football League",
+            "leagueAbbreviation": "NFL",
+            "leagueShortName": "NFL",
+            "team": {
+                "id": "29",
+                "uid": "s:20~l:28~t:29",
+                "abbreviation": "CAR",
+                "links": [
+                    {
+                        "language": "en",
+                        "rel": [
+                            "clubhouse",
+                            "desktop",
+                            "team"
+                        ],
+                        "href": "https://www.espn.com/nfl/team/_/name/car/carolina-panthers",
+                        "text": "Clubhouse",
+                        "shortText": "Clubhouse",
+                        "isExternal": false,
+                        "isPremium": false
+                    },
+                    {
+                        "language": "en",
+                        "rel": [
+                            "roster",
+                            "desktop",
+                            "team"
+                        ],
+                        "href": "https://www.espn.com/nfl/team/roster/_/name/car/carolina-panthers",
+                        "text": "Roster",
+                        "shortText": "Roster",
+                        "isExternal": false,
+                        "isPremium": false
+                    },
+                    {
+                        "language": "en",
+                        "rel": [
+                            "stats",
+                            "desktop",
+                            "team"
+                        ],
+                        "href": "https://www.espn.com/nfl/team/stats/_/name/car/carolina-panthers",
+                        "text": "Statistics",
+                        "shortText": "Statistics",
+                        "isExternal": false,
+                        "isPremium": false
+                    },
+                    {
+                        "language": "en",
+                        "rel": [
+                            "schedule",
+                            "desktop",
+                            "team"
+                        ],
+                        "href": "https://www.espn.com/nfl/team/schedule/_/name/car",
+                        "text": "Schedule",
+                        "shortText": "Schedule",
+                        "isExternal": false,
+                        "isPremium": false
+                    },
+                    {
+                        "language": "en",
+                        "rel": [
+                            "photos",
+                            "desktop",
+                            "team"
+                        ],
+                        "href": "https://www.espn.com/nfl/team/photos/_/name/car",
+                        "text": "photos",
+                        "shortText": "photos",
+                        "isExternal": false,
+                        "isPremium": false
+                    },
+                    {
+                        "language": "en",
+                        "rel": [
+                            "tickets",
+                            "desktop",
+                            "team"
+                        ],
+                        "href": "https://www.vividseats.com/carolina-panthers-tickets--sports-nfl-football/performer/144?wsUser=717",
+                        "text": "Tickets",
+                        "shortText": "Tickets",
+                        "isExternal": true,
+                        "isPremium": false
+                    },
+                    {
+                        "language": "en",
+                        "rel": [
+                            "draftpicks",
+                            "desktop",
+                            "team"
+                        ],
+                        "href": "https://www.espn.com/nfl/draft/teams/_/name/car/carolina-panthers",
+                        "text": "Draft Picks",
+                        "shortText": "Draft Picks",
+                        "isExternal": false,
+                        "isPremium": true
+                    },
+                    {
+                        "language": "en",
+                        "rel": [
+                            "transactions",
+                            "desktop",
+                            "team"
+                        ],
+                        "href": "https://www.espn.com/nfl/team/transactions/_/name/car",
+                        "text": "Transactions",
+                        "shortText": "Transactions",
+                        "isExternal": false,
+                        "isPremium": false
+                    },
+                    {
+                        "language": "en",
+                        "rel": [
+                            "injuries",
+                            "desktop",
+                            "team"
+                        ],
+                        "href": "https://www.espn.com/nfl/team/injuries/_/name/car",
+                        "text": "Injuries",
+                        "shortText": "Injuries",
+                        "isExternal": false,
+                        "isPremium": false
+                    },
+                    {
+                        "language": "en",
+                        "rel": [
+                            "depthchart",
+                            "desktop",
+                            "team"
+                        ],
+                        "href": "https://www.espn.com/nfl/team/depth/_/name/car",
+                        "text": "Depth Chart",
+                        "shortText": "Depth Chart",
+                        "isExternal": false,
+                        "isPremium": false
+                    }
+                ],
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/car.png",
+                "isAllStar": false
+            }
+        },
+        "401671658": {
+            "id": "401671658",
+            "links": [
+                {
+                    "language": "en",
+                    "rel": [
+                        "summary",
+                        "desktop",
+                        "event"
+                    ],
+                    "href": "https://www.espn.com/nfl/game/_/gameId/401671658/panthers-raiders",
+                    "text": "Gamecast",
+                    "shortText": "Summary",
+                    "isExternal": false,
+                    "isPremium": false
+                },
+                {
+                    "language": "en",
+                    "rel": [
+                        "summary",
+                        "sportscenter",
+                        "app",
+                        "event"
+                    ],
+                    "href": "sportscenter://x-callback-url/showGame?sportName=football&leagueAbbrev=nfl&gameId=401671658",
+                    "text": "Gamecast",
+                    "shortText": "Summary",
+                    "isExternal": false,
+                    "isPremium": false
+                },
+                {
+                    "language": "en",
+                    "rel": [
+                        "now",
+                        "desktop",
+                        "event"
+                    ],
+                    "href": "https://www.espn.com/nfl/game/_/gameId/401671658",
+                    "text": "Now",
+                    "shortText": "Now",
+                    "isExternal": false,
+                    "isPremium": false
+                },
+                {
+                    "language": "en",
+                    "rel": [
+                        "teamstats",
+                        "desktop",
+                        "event"
+                    ],
+                    "href": "https://www.espn.com/nfl/matchup?gameId=401671658",
+                    "text": "Team Stats",
+                    "shortText": "Team Stats",
+                    "isExternal": false,
+                    "isPremium": false
+                },
+                {
+                    "language": "en",
+                    "rel": [
+                        "boxscore",
+                        "desktop",
+                        "event"
+                    ],
+                    "href": "https://www.espn.com/nfl/boxscore/_/gameId/401671658",
+                    "text": "Box Score",
+                    "shortText": "Box Score",
+                    "isExternal": false,
+                    "isPremium": false
+                },
+                {
+                    "language": "en",
+                    "rel": [
+                        "boxscore",
+                        "sportscenter",
+                        "app",
+                        "event"
+                    ],
+                    "href": "sportscenter://x-callback-url/showGame?sportName=football&leagueAbbrev=nfl&gameId=401671658",
+                    "text": "Box Score",
+                    "shortText": "Box Score",
+                    "isExternal": false,
+                    "isPremium": false
+                },
+                {
+                    "language": "en",
+                    "rel": [
+                        "gamecast",
+                        "desktop",
+                        "event"
+                    ],
+                    "href": "https://www.espn.com/nfl/gamecast/_/gameId/401671658",
+                    "text": "Gamecast",
+                    "shortText": "Gamecast",
+                    "isExternal": false,
+                    "isPremium": false
+                },
+                {
+                    "language": "en",
+                    "rel": [
+                        "gamecast",
+                        "mobile",
+                        "event"
+                    ],
+                    "href": "https://m.espn.com/nfl/gamecast?gameId=401671658&action=summary",
+                    "text": "Gamecast",
+                    "shortText": "Gamecast",
+                    "isExternal": false,
+                    "isPremium": false
+                },
+                {
+                    "language": "en",
+                    "rel": [
+                        "gamecast",
+                        "sportscenter",
+                        "app",
+                        "event"
+                    ],
+                    "href": "sportscenter://x-callback-url/showGame?sportName=football&leagueAbbrev=nfl&gameId=401671658",
+                    "text": "Gamecast",
+                    "shortText": "Gamecast",
+                    "isExternal": false,
+                    "isPremium": false
+                },
+                {
+                    "language": "en",
+                    "rel": [
+                        "recap",
+                        "desktop",
+                        "event"
+                    ],
+                    "href": "https://www.espn.com/nfl/recap?gameId=401671658",
+                    "text": "Recap",
+                    "shortText": "Recap",
+                    "isExternal": false,
+                    "isPremium": false
+                },
+                {
+                    "language": "en",
+                    "rel": [
+                        "pbp",
+                        "desktop",
+                        "event"
+                    ],
+                    "href": "https://www.espn.com/nfl/playbyplay/_/gameId/401671658",
+                    "text": "Play-by-Play",
+                    "shortText": "Play-by-Play",
+                    "isExternal": false,
+                    "isPremium": false
+                },
+                {
+                    "language": "en",
+                    "rel": [
+                        "videos",
+                        "desktop",
+                        "event"
+                    ],
+                    "href": "https://www.espn.com/nfl/video?gameId=401671658",
+                    "text": "Videos",
+                    "shortText": "Videos",
+                    "isExternal": false,
+                    "isPremium": false
+                }
+            ],
+            "week": 3,
+            "atVs": "@",
+            "gameDate": "2024-09-22T20:05:00.000+00:00",
+            "score": "36-22",
+            "homeTeamId": "13",
+            "awayTeamId": "29",
+            "homeTeamScore": "22",
+            "awayTeamScore": "36",
+            "gameResult": "W",
+            "opponent": {
+                "id": "13",
+                "uid": "s:20~l:28~t:13",
+                "displayName": "Las Vegas Raiders",
+                "abbreviation": "LV",
+                "links": [
+                    {
+                        "language": "en",
+                        "rel": [
+                            "clubhouse",
+                            "desktop",
+                            "team"
+                        ],
+                        "href": "https://www.espn.com/nfl/team/_/name/lv/las-vegas-raiders",
+                        "text": "Clubhouse",
+                        "shortText": "Clubhouse",
+                        "isExternal": false,
+                        "isPremium": false
+                    },
+                    {
+                        "language": "en",
+                        "rel": [
+                            "roster",
+                            "desktop",
+                            "team"
+                        ],
+                        "href": "https://www.espn.com/nfl/team/roster/_/name/lv/las-vegas-raiders",
+                        "text": "Roster",
+                        "shortText": "Roster",
+                        "isExternal": false,
+                        "isPremium": false
+                    },
+                    {
+                        "language": "en",
+                        "rel": [
+                            "stats",
+                            "desktop",
+                            "team"
+                        ],
+                        "href": "https://www.espn.com/nfl/team/stats/_/name/lv/las-vegas-raiders",
+                        "text": "Statistics",
+                        "shortText": "Statistics",
+                        "isExternal": false,
+                        "isPremium": false
+                    },
+                    {
+                        "language": "en",
+                        "rel": [
+                            "schedule",
+                            "desktop",
+                            "team"
+                        ],
+                        "href": "https://www.espn.com/nfl/team/schedule/_/name/lv",
+                        "text": "Schedule",
+                        "shortText": "Schedule",
+                        "isExternal": false,
+                        "isPremium": false
+                    },
+                    {
+                        "language": "en",
+                        "rel": [
+                            "photos",
+                            "desktop",
+                            "team"
+                        ],
+                        "href": "https://www.espn.com/nfl/team/photos/_/name/lv",
+                        "text": "photos",
+                        "shortText": "photos",
+                        "isExternal": false,
+                        "isPremium": false
+                    },
+                    {
+                        "language": "en",
+                        "rel": [
+                            "tickets",
+                            "desktop",
+                            "team"
+                        ],
+                        "href": "https://www.vividseats.com/las-vegas-raiders-tickets--sports-nfl-football/performer/626?wsUser=717",
+                        "text": "Tickets",
+                        "shortText": "Tickets",
+                        "isExternal": true,
+                        "isPremium": false
+                    },
+                    {
+                        "language": "en",
+                        "rel": [
+                            "draftpicks",
+                            "desktop",
+                            "team"
+                        ],
+                        "href": "https://www.espn.com/nfl/draft/teams/_/name/lv/las-vegas-raiders",
+                        "text": "Draft Picks",
+                        "shortText": "Draft Picks",
+                        "isExternal": false,
+                        "isPremium": true
+                    },
+                    {
+                        "language": "en",
+                        "rel": [
+                            "transactions",
+                            "desktop",
+                            "team"
+                        ],
+                        "href": "https://www.espn.com/nfl/team/transactions/_/name/lv",
+                        "text": "Transactions",
+                        "shortText": "Transactions",
+                        "isExternal": false,
+                        "isPremium": false
+                    },
+                    {
+                        "language": "en",
+                        "rel": [
+                            "injuries",
+                            "desktop",
+                            "team"
+                        ],
+                        "href": "https://www.espn.com/nfl/team/injuries/_/name/lv",
+                        "text": "Injuries",
+                        "shortText": "Injuries",
+                        "isExternal": false,
+                        "isPremium": false
+                    },
+                    {
+                        "language": "en",
+                        "rel": [
+                            "depthchart",
+                            "desktop",
+                            "team"
+                        ],
+                        "href": "https://www.espn.com/nfl/team/depth/_/name/lv",
+                        "text": "Depth Chart",
+                        "shortText": "Depth Chart",
+                        "isExternal": false,
+                        "isPremium": false
+                    }
+                ],
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/lv.png"
+            },
+            "leagueName": "National Football League",
+            "leagueAbbreviation": "NFL",
+            "leagueShortName": "NFL",
+            "team": {
+                "id": "29",
+                "uid": "s:20~l:28~t:29",
+                "abbreviation": "CAR",
+                "links": [
+                    {
+                        "language": "en",
+                        "rel": [
+                            "clubhouse",
+                            "desktop",
+                            "team"
+                        ],
+                        "href": "https://www.espn.com/nfl/team/_/name/car/carolina-panthers",
+                        "text": "Clubhouse",
+                        "shortText": "Clubhouse",
+                        "isExternal": false,
+                        "isPremium": false
+                    },
+                    {
+                        "language": "en",
+                        "rel": [
+                            "roster",
+                            "desktop",
+                            "team"
+                        ],
+                        "href": "https://www.espn.com/nfl/team/roster/_/name/car/carolina-panthers",
+                        "text": "Roster",
+                        "shortText": "Roster",
+                        "isExternal": false,
+                        "isPremium": false
+                    },
+                    {
+                        "language": "en",
+                        "rel": [
+                            "stats",
+                            "desktop",
+                            "team"
+                        ],
+                        "href": "https://www.espn.com/nfl/team/stats/_/name/car/carolina-panthers",
+                        "text": "Statistics",
+                        "shortText": "Statistics",
+                        "isExternal": false,
+                        "isPremium": false
+                    },
+                    {
+                        "language": "en",
+                        "rel": [
+                            "schedule",
+                            "desktop",
+                            "team"
+                        ],
+                        "href": "https://www.espn.com/nfl/team/schedule/_/name/car",
+                        "text": "Schedule",
+                        "shortText": "Schedule",
+                        "isExternal": false,
+                        "isPremium": false
+                    },
+                    {
+                        "language": "en",
+                        "rel": [
+                            "photos",
+                            "desktop",
+                            "team"
+                        ],
+                        "href": "https://www.espn.com/nfl/team/photos/_/name/car",
+                        "text": "photos",
+                        "shortText": "photos",
+                        "isExternal": false,
+                        "isPremium": false
+                    },
+                    {
+                        "language": "en",
+                        "rel": [
+                            "tickets",
+                            "desktop",
+                            "team"
+                        ],
+                        "href": "https://www.vividseats.com/carolina-panthers-tickets--sports-nfl-football/performer/144?wsUser=717",
+                        "text": "Tickets",
+                        "shortText": "Tickets",
+                        "isExternal": true,
+                        "isPremium": false
+                    },
+                    {
+                        "language": "en",
+                        "rel": [
+                            "draftpicks",
+                            "desktop",
+                            "team"
+                        ],
+                        "href": "https://www.espn.com/nfl/draft/teams/_/name/car/carolina-panthers",
+                        "text": "Draft Picks",
+                        "shortText": "Draft Picks",
+                        "isExternal": false,
+                        "isPremium": true
+                    },
+                    {
+                        "language": "en",
+                        "rel": [
+                            "transactions",
+                            "desktop",
+                            "team"
+                        ],
+                        "href": "https://www.espn.com/nfl/team/transactions/_/name/car",
+                        "text": "Transactions",
+                        "shortText": "Transactions",
+                        "isExternal": false,
+                        "isPremium": false
+                    },
+                    {
+                        "language": "en",
+                        "rel": [
+                            "injuries",
+                            "desktop",
+                            "team"
+                        ],
+                        "href": "https://www.espn.com/nfl/team/injuries/_/name/car",
+                        "text": "Injuries",
+                        "shortText": "Injuries",
+                        "isExternal": false,
+                        "isPremium": false
+                    },
+                    {
+                        "language": "en",
+                        "rel": [
+                            "depthchart",
+                            "desktop",
+                            "team"
+                        ],
+                        "href": "https://www.espn.com/nfl/team/depth/_/name/car",
+                        "text": "Depth Chart",
+                        "shortText": "Depth Chart",
+                        "isExternal": false,
+                        "isPremium": false
+                    }
+                ],
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/car.png",
+                "isAllStar": false
+            }
+        },
+        "401671734": {
+            "id": "401671734",
+            "links": [
+                {
+                    "language": "en",
+                    "rel": [
+                        "summary",
+                        "desktop",
+                        "event"
+                    ],
+                    "href": "https://www.espn.com/nfl/game/_/gameId/401671734/panthers-saints",
+                    "text": "Gamecast",
+                    "shortText": "Summary",
+                    "isExternal": false,
+                    "isPremium": false
+                },
+                {
+                    "language": "en",
+                    "rel": [
+                        "summary",
+                        "sportscenter",
+                        "app",
+                        "event"
+                    ],
+                    "href": "sportscenter://x-callback-url/showGame?sportName=football&leagueAbbrev=nfl&gameId=401671734",
+                    "text": "Gamecast",
+                    "shortText": "Summary",
+                    "isExternal": false,
+                    "isPremium": false
+                },
+                {
+                    "language": "en",
+                    "rel": [
+                        "now",
+                        "desktop",
+                        "event"
+                    ],
+                    "href": "https://www.espn.com/nfl/game/_/gameId/401671734",
+                    "text": "Now",
+                    "shortText": "Now",
+                    "isExternal": false,
+                    "isPremium": false
+                },
+                {
+                    "language": "en",
+                    "rel": [
+                        "teamstats",
+                        "desktop",
+                        "event"
+                    ],
+                    "href": "https://www.espn.com/nfl/matchup?gameId=401671734",
+                    "text": "Team Stats",
+                    "shortText": "Team Stats",
+                    "isExternal": false,
+                    "isPremium": false
+                },
+                {
+                    "language": "en",
+                    "rel": [
+                        "boxscore",
+                        "desktop",
+                        "event"
+                    ],
+                    "href": "https://www.espn.com/nfl/boxscore/_/gameId/401671734",
+                    "text": "Box Score",
+                    "shortText": "Box Score",
+                    "isExternal": false,
+                    "isPremium": false
+                },
+                {
+                    "language": "en",
+                    "rel": [
+                        "boxscore",
+                        "sportscenter",
+                        "app",
+                        "event"
+                    ],
+                    "href": "sportscenter://x-callback-url/showGame?sportName=football&leagueAbbrev=nfl&gameId=401671734",
+                    "text": "Box Score",
+                    "shortText": "Box Score",
+                    "isExternal": false,
+                    "isPremium": false
+                },
+                {
+                    "language": "en",
+                    "rel": [
+                        "gamecast",
+                        "desktop",
+                        "event"
+                    ],
+                    "href": "https://www.espn.com/nfl/gamecast/_/gameId/401671734",
+                    "text": "Gamecast",
+                    "shortText": "Gamecast",
+                    "isExternal": false,
+                    "isPremium": false
+                },
+                {
+                    "language": "en",
+                    "rel": [
+                        "gamecast",
+                        "mobile",
+                        "event"
+                    ],
+                    "href": "https://m.espn.com/nfl/gamecast?gameId=401671734&action=summary",
+                    "text": "Gamecast",
+                    "shortText": "Gamecast",
+                    "isExternal": false,
+                    "isPremium": false
+                },
+                {
+                    "language": "en",
+                    "rel": [
+                        "gamecast",
+                        "sportscenter",
+                        "app",
+                        "event"
+                    ],
+                    "href": "sportscenter://x-callback-url/showGame?sportName=football&leagueAbbrev=nfl&gameId=401671734",
+                    "text": "Gamecast",
+                    "shortText": "Gamecast",
+                    "isExternal": false,
+                    "isPremium": false
+                },
+                {
+                    "language": "en",
+                    "rel": [
+                        "recap",
+                        "desktop",
+                        "event"
+                    ],
+                    "href": "https://www.espn.com/nfl/recap?gameId=401671734",
+                    "text": "Recap",
+                    "shortText": "Recap",
+                    "isExternal": false,
+                    "isPremium": false
+                },
+                {
+                    "language": "en",
+                    "rel": [
+                        "pbp",
+                        "desktop",
+                        "event"
+                    ],
+                    "href": "https://www.espn.com/nfl/playbyplay/_/gameId/401671734",
+                    "text": "Play-by-Play",
+                    "shortText": "Play-by-Play",
+                    "isExternal": false,
+                    "isPremium": false
+                },
+                {
+                    "language": "en",
+                    "rel": [
+                        "videos",
+                        "desktop",
+                        "event"
+                    ],
+                    "href": "https://www.espn.com/nfl/video?gameId=401671734",
+                    "text": "Videos",
+                    "shortText": "Videos",
+                    "isExternal": false,
+                    "isPremium": false
+                }
+            ],
+            "week": 1,
+            "atVs": "@",
+            "gameDate": "2024-09-08T17:00:00.000+00:00",
+            "score": "47-10",
+            "homeTeamId": "18",
+            "awayTeamId": "29",
+            "homeTeamScore": "47",
+            "awayTeamScore": "10",
+            "gameResult": "L",
+            "opponent": {
+                "id": "18",
+                "uid": "s:20~l:28~t:18",
+                "displayName": "New Orleans Saints",
+                "abbreviation": "NO",
+                "links": [
+                    {
+                        "language": "en",
+                        "rel": [
+                            "clubhouse",
+                            "desktop",
+                            "team"
+                        ],
+                        "href": "https://www.espn.com/nfl/team/_/name/no/new-orleans-saints",
+                        "text": "Clubhouse",
+                        "shortText": "Clubhouse",
+                        "isExternal": false,
+                        "isPremium": false
+                    },
+                    {
+                        "language": "en",
+                        "rel": [
+                            "roster",
+                            "desktop",
+                            "team"
+                        ],
+                        "href": "https://www.espn.com/nfl/team/roster/_/name/no/new-orleans-saints",
+                        "text": "Roster",
+                        "shortText": "Roster",
+                        "isExternal": false,
+                        "isPremium": false
+                    },
+                    {
+                        "language": "en",
+                        "rel": [
+                            "stats",
+                            "desktop",
+                            "team"
+                        ],
+                        "href": "https://www.espn.com/nfl/team/stats/_/name/no/new-orleans-saints",
+                        "text": "Statistics",
+                        "shortText": "Statistics",
+                        "isExternal": false,
+                        "isPremium": false
+                    },
+                    {
+                        "language": "en",
+                        "rel": [
+                            "schedule",
+                            "desktop",
+                            "team"
+                        ],
+                        "href": "https://www.espn.com/nfl/team/schedule/_/name/no",
+                        "text": "Schedule",
+                        "shortText": "Schedule",
+                        "isExternal": false,
+                        "isPremium": false
+                    },
+                    {
+                        "language": "en",
+                        "rel": [
+                            "photos",
+                            "desktop",
+                            "team"
+                        ],
+                        "href": "https://www.espn.com/nfl/team/photos/_/name/no",
+                        "text": "photos",
+                        "shortText": "photos",
+                        "isExternal": false,
+                        "isPremium": false
+                    },
+                    {
+                        "language": "en",
+                        "rel": [
+                            "tickets",
+                            "desktop",
+                            "team"
+                        ],
+                        "href": "https://www.vividseats.com/new-orleans-saints-tickets--sports-nfl-football/performer/597?wsUser=717",
+                        "text": "Tickets",
+                        "shortText": "Tickets",
+                        "isExternal": true,
+                        "isPremium": false
+                    },
+                    {
+                        "language": "en",
+                        "rel": [
+                            "draftpicks",
+                            "desktop",
+                            "team"
+                        ],
+                        "href": "https://www.espn.com/nfl/draft/teams/_/name/no/new-orleans-saints",
+                        "text": "Draft Picks",
+                        "shortText": "Draft Picks",
+                        "isExternal": false,
+                        "isPremium": true
+                    },
+                    {
+                        "language": "en",
+                        "rel": [
+                            "transactions",
+                            "desktop",
+                            "team"
+                        ],
+                        "href": "https://www.espn.com/nfl/team/transactions/_/name/no",
+                        "text": "Transactions",
+                        "shortText": "Transactions",
+                        "isExternal": false,
+                        "isPremium": false
+                    },
+                    {
+                        "language": "en",
+                        "rel": [
+                            "injuries",
+                            "desktop",
+                            "team"
+                        ],
+                        "href": "https://www.espn.com/nfl/team/injuries/_/name/no",
+                        "text": "Injuries",
+                        "shortText": "Injuries",
+                        "isExternal": false,
+                        "isPremium": false
+                    },
+                    {
+                        "language": "en",
+                        "rel": [
+                            "depthchart",
+                            "desktop",
+                            "team"
+                        ],
+                        "href": "https://www.espn.com/nfl/team/depth/_/name/no",
+                        "text": "Depth Chart",
+                        "shortText": "Depth Chart",
+                        "isExternal": false,
+                        "isPremium": false
+                    }
+                ],
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/no.png"
+            },
+            "leagueName": "National Football League",
+            "leagueAbbreviation": "NFL",
+            "leagueShortName": "NFL",
+            "team": {
+                "id": "29",
+                "uid": "s:20~l:28~t:29",
+                "abbreviation": "CAR",
+                "links": [
+                    {
+                        "language": "en",
+                        "rel": [
+                            "clubhouse",
+                            "desktop",
+                            "team"
+                        ],
+                        "href": "https://www.espn.com/nfl/team/_/name/car/carolina-panthers",
+                        "text": "Clubhouse",
+                        "shortText": "Clubhouse",
+                        "isExternal": false,
+                        "isPremium": false
+                    },
+                    {
+                        "language": "en",
+                        "rel": [
+                            "roster",
+                            "desktop",
+                            "team"
+                        ],
+                        "href": "https://www.espn.com/nfl/team/roster/_/name/car/carolina-panthers",
+                        "text": "Roster",
+                        "shortText": "Roster",
+                        "isExternal": false,
+                        "isPremium": false
+                    },
+                    {
+                        "language": "en",
+                        "rel": [
+                            "stats",
+                            "desktop",
+                            "team"
+                        ],
+                        "href": "https://www.espn.com/nfl/team/stats/_/name/car/carolina-panthers",
+                        "text": "Statistics",
+                        "shortText": "Statistics",
+                        "isExternal": false,
+                        "isPremium": false
+                    },
+                    {
+                        "language": "en",
+                        "rel": [
+                            "schedule",
+                            "desktop",
+                            "team"
+                        ],
+                        "href": "https://www.espn.com/nfl/team/schedule/_/name/car",
+                        "text": "Schedule",
+                        "shortText": "Schedule",
+                        "isExternal": false,
+                        "isPremium": false
+                    },
+                    {
+                        "language": "en",
+                        "rel": [
+                            "photos",
+                            "desktop",
+                            "team"
+                        ],
+                        "href": "https://www.espn.com/nfl/team/photos/_/name/car",
+                        "text": "photos",
+                        "shortText": "photos",
+                        "isExternal": false,
+                        "isPremium": false
+                    },
+                    {
+                        "language": "en",
+                        "rel": [
+                            "tickets",
+                            "desktop",
+                            "team"
+                        ],
+                        "href": "https://www.vividseats.com/carolina-panthers-tickets--sports-nfl-football/performer/144?wsUser=717",
+                        "text": "Tickets",
+                        "shortText": "Tickets",
+                        "isExternal": true,
+                        "isPremium": false
+                    },
+                    {
+                        "language": "en",
+                        "rel": [
+                            "draftpicks",
+                            "desktop",
+                            "team"
+                        ],
+                        "href": "https://www.espn.com/nfl/draft/teams/_/name/car/carolina-panthers",
+                        "text": "Draft Picks",
+                        "shortText": "Draft Picks",
+                        "isExternal": false,
+                        "isPremium": true
+                    },
+                    {
+                        "language": "en",
+                        "rel": [
+                            "transactions",
+                            "desktop",
+                            "team"
+                        ],
+                        "href": "https://www.espn.com/nfl/team/transactions/_/name/car",
+                        "text": "Transactions",
+                        "shortText": "Transactions",
+                        "isExternal": false,
+                        "isPremium": false
+                    },
+                    {
+                        "language": "en",
+                        "rel": [
+                            "injuries",
+                            "desktop",
+                            "team"
+                        ],
+                        "href": "https://www.espn.com/nfl/team/injuries/_/name/car",
+                        "text": "Injuries",
+                        "shortText": "Injuries",
+                        "isExternal": false,
+                        "isPremium": false
+                    },
+                    {
+                        "language": "en",
+                        "rel": [
+                            "depthchart",
+                            "desktop",
+                            "team"
+                        ],
+                        "href": "https://www.espn.com/nfl/team/depth/_/name/car",
+                        "text": "Depth Chart",
+                        "shortText": "Depth Chart",
+                        "isExternal": false,
+                        "isPremium": false
+                    }
+                ],
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/car.png",
+                "isAllStar": false
+            }
+        },
+        "401671745": {
+            "id": "401671745",
+            "links": [
+                {
+                    "language": "en",
+                    "rel": [
+                        "summary",
+                        "desktop",
+                        "event"
+                    ],
+                    "href": "https://www.espn.com/nfl/game/_/gameId/401671745/bengals-panthers",
+                    "text": "Gamecast",
+                    "shortText": "Summary",
+                    "isExternal": false,
+                    "isPremium": false
+                },
+                {
+                    "language": "en",
+                    "rel": [
+                        "summary",
+                        "sportscenter",
+                        "app",
+                        "event"
+                    ],
+                    "href": "sportscenter://x-callback-url/showGame?sportName=football&leagueAbbrev=nfl&gameId=401671745",
+                    "text": "Gamecast",
+                    "shortText": "Summary",
+                    "isExternal": false,
+                    "isPremium": false
+                },
+                {
+                    "language": "en",
+                    "rel": [
+                        "now",
+                        "desktop",
+                        "event"
+                    ],
+                    "href": "https://www.espn.com/nfl/game/_/gameId/401671745",
+                    "text": "Now",
+                    "shortText": "Now",
+                    "isExternal": false,
+                    "isPremium": false
+                },
+                {
+                    "language": "en",
+                    "rel": [
+                        "teamstats",
+                        "desktop",
+                        "event"
+                    ],
+                    "href": "https://www.espn.com/nfl/matchup?gameId=401671745",
+                    "text": "Team Stats",
+                    "shortText": "Team Stats",
+                    "isExternal": false,
+                    "isPremium": false
+                },
+                {
+                    "language": "en",
+                    "rel": [
+                        "boxscore",
+                        "desktop",
+                        "event"
+                    ],
+                    "href": "https://www.espn.com/nfl/boxscore/_/gameId/401671745",
+                    "text": "Box Score",
+                    "shortText": "Box Score",
+                    "isExternal": false,
+                    "isPremium": false
+                },
+                {
+                    "language": "en",
+                    "rel": [
+                        "boxscore",
+                        "sportscenter",
+                        "app",
+                        "event"
+                    ],
+                    "href": "sportscenter://x-callback-url/showGame?sportName=football&leagueAbbrev=nfl&gameId=401671745",
+                    "text": "Box Score",
+                    "shortText": "Box Score",
+                    "isExternal": false,
+                    "isPremium": false
+                },
+                {
+                    "language": "en",
+                    "rel": [
+                        "gamecast",
+                        "desktop",
+                        "event"
+                    ],
+                    "href": "https://www.espn.com/nfl/gamecast/_/gameId/401671745",
+                    "text": "Gamecast",
+                    "shortText": "Gamecast",
+                    "isExternal": false,
+                    "isPremium": false
+                },
+                {
+                    "language": "en",
+                    "rel": [
+                        "gamecast",
+                        "mobile",
+                        "event"
+                    ],
+                    "href": "https://m.espn.com/nfl/gamecast?gameId=401671745&action=summary",
+                    "text": "Gamecast",
+                    "shortText": "Gamecast",
+                    "isExternal": false,
+                    "isPremium": false
+                },
+                {
+                    "language": "en",
+                    "rel": [
+                        "gamecast",
+                        "sportscenter",
+                        "app",
+                        "event"
+                    ],
+                    "href": "sportscenter://x-callback-url/showGame?sportName=football&leagueAbbrev=nfl&gameId=401671745",
+                    "text": "Gamecast",
+                    "shortText": "Gamecast",
+                    "isExternal": false,
+                    "isPremium": false
+                },
+                {
+                    "language": "en",
+                    "rel": [
+                        "recap",
+                        "desktop",
+                        "event"
+                    ],
+                    "href": "https://www.espn.com/nfl/recap?gameId=401671745",
+                    "text": "Recap",
+                    "shortText": "Recap",
+                    "isExternal": false,
+                    "isPremium": false
+                },
+                {
+                    "language": "en",
+                    "rel": [
+                        "pbp",
+                        "desktop",
+                        "event"
+                    ],
+                    "href": "https://www.espn.com/nfl/playbyplay/_/gameId/401671745",
+                    "text": "Play-by-Play",
+                    "shortText": "Play-by-Play",
+                    "isExternal": false,
+                    "isPremium": false
+                },
+                {
+                    "language": "en",
+                    "rel": [
+                        "videos",
+                        "desktop",
+                        "event"
+                    ],
+                    "href": "https://www.espn.com/nfl/video?gameId=401671745",
+                    "text": "Videos",
+                    "shortText": "Videos",
+                    "isExternal": false,
+                    "isPremium": false
+                }
+            ],
+            "week": 4,
+            "atVs": "vs",
+            "gameDate": "2024-09-29T17:00:00.000+00:00",
+            "score": "34-24",
+            "homeTeamId": "29",
+            "awayTeamId": "4",
+            "homeTeamScore": "24",
+            "awayTeamScore": "34",
+            "gameResult": "L",
+            "opponent": {
+                "id": "4",
+                "uid": "s:20~l:28~t:4",
+                "displayName": "Cincinnati Bengals",
+                "abbreviation": "CIN",
+                "links": [
+                    {
+                        "language": "en",
+                        "rel": [
+                            "clubhouse",
+                            "desktop",
+                            "team"
+                        ],
+                        "href": "https://www.espn.com/nfl/team/_/name/cin/cincinnati-bengals",
+                        "text": "Clubhouse",
+                        "shortText": "Clubhouse",
+                        "isExternal": false,
+                        "isPremium": false
+                    },
+                    {
+                        "language": "en",
+                        "rel": [
+                            "roster",
+                            "desktop",
+                            "team"
+                        ],
+                        "href": "https://www.espn.com/nfl/team/roster/_/name/cin/cincinnati-bengals",
+                        "text": "Roster",
+                        "shortText": "Roster",
+                        "isExternal": false,
+                        "isPremium": false
+                    },
+                    {
+                        "language": "en",
+                        "rel": [
+                            "stats",
+                            "desktop",
+                            "team"
+                        ],
+                        "href": "https://www.espn.com/nfl/team/stats/_/name/cin/cincinnati-bengals",
+                        "text": "Statistics",
+                        "shortText": "Statistics",
+                        "isExternal": false,
+                        "isPremium": false
+                    },
+                    {
+                        "language": "en",
+                        "rel": [
+                            "schedule",
+                            "desktop",
+                            "team"
+                        ],
+                        "href": "https://www.espn.com/nfl/team/schedule/_/name/cin",
+                        "text": "Schedule",
+                        "shortText": "Schedule",
+                        "isExternal": false,
+                        "isPremium": false
+                    },
+                    {
+                        "language": "en",
+                        "rel": [
+                            "photos",
+                            "desktop",
+                            "team"
+                        ],
+                        "href": "https://www.espn.com/nfl/team/photos/_/name/cin",
+                        "text": "photos",
+                        "shortText": "photos",
+                        "isExternal": false,
+                        "isPremium": false
+                    },
+                    {
+                        "language": "en",
+                        "rel": [
+                            "tickets",
+                            "desktop",
+                            "team"
+                        ],
+                        "href": "https://www.vividseats.com/cincinnati-bengals-tickets--sports-nfl-football/performer/172?wsUser=717",
+                        "text": "Tickets",
+                        "shortText": "Tickets",
+                        "isExternal": true,
+                        "isPremium": false
+                    },
+                    {
+                        "language": "en",
+                        "rel": [
+                            "draftpicks",
+                            "desktop",
+                            "team"
+                        ],
+                        "href": "https://www.espn.com/nfl/draft/teams/_/name/cin/cincinnati-bengals",
+                        "text": "Draft Picks",
+                        "shortText": "Draft Picks",
+                        "isExternal": false,
+                        "isPremium": true
+                    },
+                    {
+                        "language": "en",
+                        "rel": [
+                            "transactions",
+                            "desktop",
+                            "team"
+                        ],
+                        "href": "https://www.espn.com/nfl/team/transactions/_/name/cin",
+                        "text": "Transactions",
+                        "shortText": "Transactions",
+                        "isExternal": false,
+                        "isPremium": false
+                    },
+                    {
+                        "language": "en",
+                        "rel": [
+                            "injuries",
+                            "desktop",
+                            "team"
+                        ],
+                        "href": "https://www.espn.com/nfl/team/injuries/_/name/cin",
+                        "text": "Injuries",
+                        "shortText": "Injuries",
+                        "isExternal": false,
+                        "isPremium": false
+                    },
+                    {
+                        "language": "en",
+                        "rel": [
+                            "depthchart",
+                            "desktop",
+                            "team"
+                        ],
+                        "href": "https://www.espn.com/nfl/team/depth/_/name/cin",
+                        "text": "Depth Chart",
+                        "shortText": "Depth Chart",
+                        "isExternal": false,
+                        "isPremium": false
+                    }
+                ],
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/cin.png"
+            },
+            "leagueName": "National Football League",
+            "leagueAbbreviation": "NFL",
+            "leagueShortName": "NFL",
+            "team": {
+                "id": "29",
+                "uid": "s:20~l:28~t:29",
+                "abbreviation": "CAR",
+                "links": [
+                    {
+                        "language": "en",
+                        "rel": [
+                            "clubhouse",
+                            "desktop",
+                            "team"
+                        ],
+                        "href": "https://www.espn.com/nfl/team/_/name/car/carolina-panthers",
+                        "text": "Clubhouse",
+                        "shortText": "Clubhouse",
+                        "isExternal": false,
+                        "isPremium": false
+                    },
+                    {
+                        "language": "en",
+                        "rel": [
+                            "roster",
+                            "desktop",
+                            "team"
+                        ],
+                        "href": "https://www.espn.com/nfl/team/roster/_/name/car/carolina-panthers",
+                        "text": "Roster",
+                        "shortText": "Roster",
+                        "isExternal": false,
+                        "isPremium": false
+                    },
+                    {
+                        "language": "en",
+                        "rel": [
+                            "stats",
+                            "desktop",
+                            "team"
+                        ],
+                        "href": "https://www.espn.com/nfl/team/stats/_/name/car/carolina-panthers",
+                        "text": "Statistics",
+                        "shortText": "Statistics",
+                        "isExternal": false,
+                        "isPremium": false
+                    },
+                    {
+                        "language": "en",
+                        "rel": [
+                            "schedule",
+                            "desktop",
+                            "team"
+                        ],
+                        "href": "https://www.espn.com/nfl/team/schedule/_/name/car",
+                        "text": "Schedule",
+                        "shortText": "Schedule",
+                        "isExternal": false,
+                        "isPremium": false
+                    },
+                    {
+                        "language": "en",
+                        "rel": [
+                            "photos",
+                            "desktop",
+                            "team"
+                        ],
+                        "href": "https://www.espn.com/nfl/team/photos/_/name/car",
+                        "text": "photos",
+                        "shortText": "photos",
+                        "isExternal": false,
+                        "isPremium": false
+                    },
+                    {
+                        "language": "en",
+                        "rel": [
+                            "tickets",
+                            "desktop",
+                            "team"
+                        ],
+                        "href": "https://www.vividseats.com/carolina-panthers-tickets--sports-nfl-football/performer/144?wsUser=717",
+                        "text": "Tickets",
+                        "shortText": "Tickets",
+                        "isExternal": true,
+                        "isPremium": false
+                    },
+                    {
+                        "language": "en",
+                        "rel": [
+                            "draftpicks",
+                            "desktop",
+                            "team"
+                        ],
+                        "href": "https://www.espn.com/nfl/draft/teams/_/name/car/carolina-panthers",
+                        "text": "Draft Picks",
+                        "shortText": "Draft Picks",
+                        "isExternal": false,
+                        "isPremium": true
+                    },
+                    {
+                        "language": "en",
+                        "rel": [
+                            "transactions",
+                            "desktop",
+                            "team"
+                        ],
+                        "href": "https://www.espn.com/nfl/team/transactions/_/name/car",
+                        "text": "Transactions",
+                        "shortText": "Transactions",
+                        "isExternal": false,
+                        "isPremium": false
+                    },
+                    {
+                        "language": "en",
+                        "rel": [
+                            "injuries",
+                            "desktop",
+                            "team"
+                        ],
+                        "href": "https://www.espn.com/nfl/team/injuries/_/name/car",
+                        "text": "Injuries",
+                        "shortText": "Injuries",
+                        "isExternal": false,
+                        "isPremium": false
+                    },
+                    {
+                        "language": "en",
+                        "rel": [
+                            "depthchart",
+                            "desktop",
+                            "team"
+                        ],
+                        "href": "https://www.espn.com/nfl/team/depth/_/name/car",
+                        "text": "Depth Chart",
+                        "shortText": "Depth Chart",
+                        "isExternal": false,
+                        "isPremium": false
+                    }
+                ],
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/car.png",
+                "isAllStar": false
+            }
+        },
+        "401671769": {
+            "id": "401671769",
+            "links": [
+                {
+                    "language": "en",
+                    "rel": [
+                        "summary",
+                        "desktop",
+                        "event"
+                    ],
+                    "href": "https://www.espn.com/nfl/game/_/gameId/401671769/falcons-panthers",
+                    "text": "Gamecast",
+                    "shortText": "Summary",
+                    "isExternal": false,
+                    "isPremium": false
+                },
+                {
+                    "language": "en",
+                    "rel": [
+                        "summary",
+                        "sportscenter",
+                        "app",
+                        "event"
+                    ],
+                    "href": "sportscenter://x-callback-url/showGame?sportName=football&leagueAbbrev=nfl&gameId=401671769",
+                    "text": "Gamecast",
+                    "shortText": "Summary",
+                    "isExternal": false,
+                    "isPremium": false
+                },
+                {
+                    "language": "en",
+                    "rel": [
+                        "now",
+                        "desktop",
+                        "event"
+                    ],
+                    "href": "https://www.espn.com/nfl/game/_/gameId/401671769",
+                    "text": "Now",
+                    "shortText": "Now",
+                    "isExternal": false,
+                    "isPremium": false
+                },
+                {
+                    "language": "en",
+                    "rel": [
+                        "teamstats",
+                        "desktop",
+                        "event"
+                    ],
+                    "href": "https://www.espn.com/nfl/matchup?gameId=401671769",
+                    "text": "Team Stats",
+                    "shortText": "Team Stats",
+                    "isExternal": false,
+                    "isPremium": false
+                },
+                {
+                    "language": "en",
+                    "rel": [
+                        "boxscore",
+                        "desktop",
+                        "event"
+                    ],
+                    "href": "https://www.espn.com/nfl/boxscore/_/gameId/401671769",
+                    "text": "Box Score",
+                    "shortText": "Box Score",
+                    "isExternal": false,
+                    "isPremium": false
+                },
+                {
+                    "language": "en",
+                    "rel": [
+                        "boxscore",
+                        "sportscenter",
+                        "app",
+                        "event"
+                    ],
+                    "href": "sportscenter://x-callback-url/showGame?sportName=football&leagueAbbrev=nfl&gameId=401671769",
+                    "text": "Box Score",
+                    "shortText": "Box Score",
+                    "isExternal": false,
+                    "isPremium": false
+                },
+                {
+                    "language": "en",
+                    "rel": [
+                        "gamecast",
+                        "desktop",
+                        "event"
+                    ],
+                    "href": "https://www.espn.com/nfl/gamecast/_/gameId/401671769",
+                    "text": "Gamecast",
+                    "shortText": "Gamecast",
+                    "isExternal": false,
+                    "isPremium": false
+                },
+                {
+                    "language": "en",
+                    "rel": [
+                        "gamecast",
+                        "mobile",
+                        "event"
+                    ],
+                    "href": "https://m.espn.com/nfl/gamecast?gameId=401671769&action=summary",
+                    "text": "Gamecast",
+                    "shortText": "Gamecast",
+                    "isExternal": false,
+                    "isPremium": false
+                },
+                {
+                    "language": "en",
+                    "rel": [
+                        "gamecast",
+                        "sportscenter",
+                        "app",
+                        "event"
+                    ],
+                    "href": "sportscenter://x-callback-url/showGame?sportName=football&leagueAbbrev=nfl&gameId=401671769",
+                    "text": "Gamecast",
+                    "shortText": "Gamecast",
+                    "isExternal": false,
+                    "isPremium": false
+                },
+                {
+                    "language": "en",
+                    "rel": [
+                        "recap",
+                        "desktop",
+                        "event"
+                    ],
+                    "href": "https://www.espn.com/nfl/recap?gameId=401671769",
+                    "text": "Recap",
+                    "shortText": "Recap",
+                    "isExternal": false,
+                    "isPremium": false
+                },
+                {
+                    "language": "en",
+                    "rel": [
+                        "pbp",
+                        "desktop",
+                        "event"
+                    ],
+                    "href": "https://www.espn.com/nfl/playbyplay/_/gameId/401671769",
+                    "text": "Play-by-Play",
+                    "shortText": "Play-by-Play",
+                    "isExternal": false,
+                    "isPremium": false
+                },
+                {
+                    "language": "en",
+                    "rel": [
+                        "videos",
+                        "desktop",
+                        "event"
+                    ],
+                    "href": "https://www.espn.com/nfl/video?gameId=401671769",
+                    "text": "Videos",
+                    "shortText": "Videos",
+                    "isExternal": false,
+                    "isPremium": false
+                }
+            ],
+            "week": 6,
+            "atVs": "vs",
+            "gameDate": "2024-10-13T20:25:00.000+00:00",
+            "score": "38-20",
+            "homeTeamId": "29",
+            "awayTeamId": "1",
+            "homeTeamScore": "20",
+            "awayTeamScore": "38",
+            "gameResult": "L",
+            "opponent": {
+                "id": "1",
+                "uid": "s:20~l:28~t:1",
+                "displayName": "Atlanta Falcons",
+                "abbreviation": "ATL",
+                "links": [
+                    {
+                        "language": "en",
+                        "rel": [
+                            "clubhouse",
+                            "desktop",
+                            "team"
+                        ],
+                        "href": "https://www.espn.com/nfl/team/_/name/atl/atlanta-falcons",
+                        "text": "Clubhouse",
+                        "shortText": "Clubhouse",
+                        "isExternal": false,
+                        "isPremium": false
+                    },
+                    {
+                        "language": "en",
+                        "rel": [
+                            "roster",
+                            "desktop",
+                            "team"
+                        ],
+                        "href": "https://www.espn.com/nfl/team/roster/_/name/atl/atlanta-falcons",
+                        "text": "Roster",
+                        "shortText": "Roster",
+                        "isExternal": false,
+                        "isPremium": false
+                    },
+                    {
+                        "language": "en",
+                        "rel": [
+                            "stats",
+                            "desktop",
+                            "team"
+                        ],
+                        "href": "https://www.espn.com/nfl/team/stats/_/name/atl/atlanta-falcons",
+                        "text": "Statistics",
+                        "shortText": "Statistics",
+                        "isExternal": false,
+                        "isPremium": false
+                    },
+                    {
+                        "language": "en",
+                        "rel": [
+                            "schedule",
+                            "desktop",
+                            "team"
+                        ],
+                        "href": "https://www.espn.com/nfl/team/schedule/_/name/atl",
+                        "text": "Schedule",
+                        "shortText": "Schedule",
+                        "isExternal": false,
+                        "isPremium": false
+                    },
+                    {
+                        "language": "en",
+                        "rel": [
+                            "photos",
+                            "desktop",
+                            "team"
+                        ],
+                        "href": "https://www.espn.com/nfl/team/photos/_/name/atl",
+                        "text": "photos",
+                        "shortText": "photos",
+                        "isExternal": false,
+                        "isPremium": false
+                    },
+                    {
+                        "language": "en",
+                        "rel": [
+                            "tickets",
+                            "desktop",
+                            "team"
+                        ],
+                        "href": "https://www.vividseats.com/atlanta-falcons-tickets--sports-nfl-football/performer/51?wsUser=717",
+                        "text": "Tickets",
+                        "shortText": "Tickets",
+                        "isExternal": true,
+                        "isPremium": false
+                    },
+                    {
+                        "language": "en",
+                        "rel": [
+                            "draftpicks",
+                            "desktop",
+                            "team"
+                        ],
+                        "href": "https://www.espn.com/nfl/draft/teams/_/name/atl/atlanta-falcons",
+                        "text": "Draft Picks",
+                        "shortText": "Draft Picks",
+                        "isExternal": false,
+                        "isPremium": true
+                    },
+                    {
+                        "language": "en",
+                        "rel": [
+                            "transactions",
+                            "desktop",
+                            "team"
+                        ],
+                        "href": "https://www.espn.com/nfl/team/transactions/_/name/atl",
+                        "text": "Transactions",
+                        "shortText": "Transactions",
+                        "isExternal": false,
+                        "isPremium": false
+                    },
+                    {
+                        "language": "en",
+                        "rel": [
+                            "injuries",
+                            "desktop",
+                            "team"
+                        ],
+                        "href": "https://www.espn.com/nfl/team/injuries/_/name/atl",
+                        "text": "Injuries",
+                        "shortText": "Injuries",
+                        "isExternal": false,
+                        "isPremium": false
+                    },
+                    {
+                        "language": "en",
+                        "rel": [
+                            "depthchart",
+                            "desktop",
+                            "team"
+                        ],
+                        "href": "https://www.espn.com/nfl/team/depth/_/name/atl",
+                        "text": "Depth Chart",
+                        "shortText": "Depth Chart",
+                        "isExternal": false,
+                        "isPremium": false
+                    }
+                ],
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/atl.png"
+            },
+            "leagueName": "National Football League",
+            "leagueAbbreviation": "NFL",
+            "leagueShortName": "NFL",
+            "team": {
+                "id": "29",
+                "uid": "s:20~l:28~t:29",
+                "abbreviation": "CAR",
+                "links": [
+                    {
+                        "language": "en",
+                        "rel": [
+                            "clubhouse",
+                            "desktop",
+                            "team"
+                        ],
+                        "href": "https://www.espn.com/nfl/team/_/name/car/carolina-panthers",
+                        "text": "Clubhouse",
+                        "shortText": "Clubhouse",
+                        "isExternal": false,
+                        "isPremium": false
+                    },
+                    {
+                        "language": "en",
+                        "rel": [
+                            "roster",
+                            "desktop",
+                            "team"
+                        ],
+                        "href": "https://www.espn.com/nfl/team/roster/_/name/car/carolina-panthers",
+                        "text": "Roster",
+                        "shortText": "Roster",
+                        "isExternal": false,
+                        "isPremium": false
+                    },
+                    {
+                        "language": "en",
+                        "rel": [
+                            "stats",
+                            "desktop",
+                            "team"
+                        ],
+                        "href": "https://www.espn.com/nfl/team/stats/_/name/car/carolina-panthers",
+                        "text": "Statistics",
+                        "shortText": "Statistics",
+                        "isExternal": false,
+                        "isPremium": false
+                    },
+                    {
+                        "language": "en",
+                        "rel": [
+                            "schedule",
+                            "desktop",
+                            "team"
+                        ],
+                        "href": "https://www.espn.com/nfl/team/schedule/_/name/car",
+                        "text": "Schedule",
+                        "shortText": "Schedule",
+                        "isExternal": false,
+                        "isPremium": false
+                    },
+                    {
+                        "language": "en",
+                        "rel": [
+                            "photos",
+                            "desktop",
+                            "team"
+                        ],
+                        "href": "https://www.espn.com/nfl/team/photos/_/name/car",
+                        "text": "photos",
+                        "shortText": "photos",
+                        "isExternal": false,
+                        "isPremium": false
+                    },
+                    {
+                        "language": "en",
+                        "rel": [
+                            "tickets",
+                            "desktop",
+                            "team"
+                        ],
+                        "href": "https://www.vividseats.com/carolina-panthers-tickets--sports-nfl-football/performer/144?wsUser=717",
+                        "text": "Tickets",
+                        "shortText": "Tickets",
+                        "isExternal": true,
+                        "isPremium": false
+                    },
+                    {
+                        "language": "en",
+                        "rel": [
+                            "draftpicks",
+                            "desktop",
+                            "team"
+                        ],
+                        "href": "https://www.espn.com/nfl/draft/teams/_/name/car/carolina-panthers",
+                        "text": "Draft Picks",
+                        "shortText": "Draft Picks",
+                        "isExternal": false,
+                        "isPremium": true
+                    },
+                    {
+                        "language": "en",
+                        "rel": [
+                            "transactions",
+                            "desktop",
+                            "team"
+                        ],
+                        "href": "https://www.espn.com/nfl/team/transactions/_/name/car",
+                        "text": "Transactions",
+                        "shortText": "Transactions",
+                        "isExternal": false,
+                        "isPremium": false
+                    },
+                    {
+                        "language": "en",
+                        "rel": [
+                            "injuries",
+                            "desktop",
+                            "team"
+                        ],
+                        "href": "https://www.espn.com/nfl/team/injuries/_/name/car",
+                        "text": "Injuries",
+                        "shortText": "Injuries",
+                        "isExternal": false,
+                        "isPremium": false
+                    },
+                    {
+                        "language": "en",
+                        "rel": [
+                            "depthchart",
+                            "desktop",
+                            "team"
+                        ],
+                        "href": "https://www.espn.com/nfl/team/depth/_/name/car",
+                        "text": "Depth Chart",
+                        "shortText": "Depth Chart",
+                        "isExternal": false,
+                        "isPremium": false
+                    }
+                ],
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/car.png",
+                "isAllStar": false
+            }
+        },
+        "401671872": {
+            "id": "401671872",
+            "links": [
+                {
+                    "language": "en",
+                    "rel": [
+                        "summary",
+                        "desktop",
+                        "event"
+                    ],
+                    "href": "https://www.espn.com/nfl/game/_/gameId/401671872/panthers-bears",
+                    "text": "Gamecast",
+                    "shortText": "Summary",
+                    "isExternal": false,
+                    "isPremium": false
+                },
+                {
+                    "language": "en",
+                    "rel": [
+                        "summary",
+                        "sportscenter",
+                        "app",
+                        "event"
+                    ],
+                    "href": "sportscenter://x-callback-url/showGame?sportName=football&leagueAbbrev=nfl&gameId=401671872",
+                    "text": "Gamecast",
+                    "shortText": "Summary",
+                    "isExternal": false,
+                    "isPremium": false
+                },
+                {
+                    "language": "en",
+                    "rel": [
+                        "now",
+                        "desktop",
+                        "event"
+                    ],
+                    "href": "https://www.espn.com/nfl/game/_/gameId/401671872",
+                    "text": "Now",
+                    "shortText": "Now",
+                    "isExternal": false,
+                    "isPremium": false
+                },
+                {
+                    "language": "en",
+                    "rel": [
+                        "teamstats",
+                        "desktop",
+                        "event"
+                    ],
+                    "href": "https://www.espn.com/nfl/matchup?gameId=401671872",
+                    "text": "Team Stats",
+                    "shortText": "Team Stats",
+                    "isExternal": false,
+                    "isPremium": false
+                },
+                {
+                    "language": "en",
+                    "rel": [
+                        "boxscore",
+                        "desktop",
+                        "event"
+                    ],
+                    "href": "https://www.espn.com/nfl/boxscore/_/gameId/401671872",
+                    "text": "Box Score",
+                    "shortText": "Box Score",
+                    "isExternal": false,
+                    "isPremium": false
+                },
+                {
+                    "language": "en",
+                    "rel": [
+                        "boxscore",
+                        "sportscenter",
+                        "app",
+                        "event"
+                    ],
+                    "href": "sportscenter://x-callback-url/showGame?sportName=football&leagueAbbrev=nfl&gameId=401671872",
+                    "text": "Box Score",
+                    "shortText": "Box Score",
+                    "isExternal": false,
+                    "isPremium": false
+                },
+                {
+                    "language": "en",
+                    "rel": [
+                        "gamecast",
+                        "desktop",
+                        "event"
+                    ],
+                    "href": "https://www.espn.com/nfl/gamecast/_/gameId/401671872",
+                    "text": "Gamecast",
+                    "shortText": "Gamecast",
+                    "isExternal": false,
+                    "isPremium": false
+                },
+                {
+                    "language": "en",
+                    "rel": [
+                        "gamecast",
+                        "mobile",
+                        "event"
+                    ],
+                    "href": "https://m.espn.com/nfl/gamecast?gameId=401671872&action=summary",
+                    "text": "Gamecast",
+                    "shortText": "Gamecast",
+                    "isExternal": false,
+                    "isPremium": false
+                },
+                {
+                    "language": "en",
+                    "rel": [
+                        "gamecast",
+                        "sportscenter",
+                        "app",
+                        "event"
+                    ],
+                    "href": "sportscenter://x-callback-url/showGame?sportName=football&leagueAbbrev=nfl&gameId=401671872",
+                    "text": "Gamecast",
+                    "shortText": "Gamecast",
+                    "isExternal": false,
+                    "isPremium": false
+                },
+                {
+                    "language": "en",
+                    "rel": [
+                        "recap",
+                        "desktop",
+                        "event"
+                    ],
+                    "href": "https://www.espn.com/nfl/recap?gameId=401671872",
+                    "text": "Recap",
+                    "shortText": "Recap",
+                    "isExternal": false,
+                    "isPremium": false
+                },
+                {
+                    "language": "en",
+                    "rel": [
+                        "pbp",
+                        "desktop",
+                        "event"
+                    ],
+                    "href": "https://www.espn.com/nfl/playbyplay/_/gameId/401671872",
+                    "text": "Play-by-Play",
+                    "shortText": "Play-by-Play",
+                    "isExternal": false,
+                    "isPremium": false
+                },
+                {
+                    "language": "en",
+                    "rel": [
+                        "videos",
+                        "desktop",
+                        "event"
+                    ],
+                    "href": "https://www.espn.com/nfl/video?gameId=401671872",
+                    "text": "Videos",
+                    "shortText": "Videos",
+                    "isExternal": false,
+                    "isPremium": false
+                }
+            ],
+            "week": 5,
+            "atVs": "@",
+            "gameDate": "2024-10-06T17:00:00.000+00:00",
+            "score": "36-10",
+            "homeTeamId": "3",
+            "awayTeamId": "29",
+            "homeTeamScore": "36",
+            "awayTeamScore": "10",
+            "gameResult": "L",
+            "opponent": {
+                "id": "3",
+                "uid": "s:20~l:28~t:3",
+                "displayName": "Chicago Bears",
+                "abbreviation": "CHI",
+                "links": [
+                    {
+                        "language": "en",
+                        "rel": [
+                            "clubhouse",
+                            "desktop",
+                            "team"
+                        ],
+                        "href": "https://www.espn.com/nfl/team/_/name/chi/chicago-bears",
+                        "text": "Clubhouse",
+                        "shortText": "Clubhouse",
+                        "isExternal": false,
+                        "isPremium": false
+                    },
+                    {
+                        "language": "en",
+                        "rel": [
+                            "roster",
+                            "desktop",
+                            "team"
+                        ],
+                        "href": "https://www.espn.com/nfl/team/roster/_/name/chi/chicago-bears",
+                        "text": "Roster",
+                        "shortText": "Roster",
+                        "isExternal": false,
+                        "isPremium": false
+                    },
+                    {
+                        "language": "en",
+                        "rel": [
+                            "stats",
+                            "desktop",
+                            "team"
+                        ],
+                        "href": "https://www.espn.com/nfl/team/stats/_/name/chi/chicago-bears",
+                        "text": "Statistics",
+                        "shortText": "Statistics",
+                        "isExternal": false,
+                        "isPremium": false
+                    },
+                    {
+                        "language": "en",
+                        "rel": [
+                            "schedule",
+                            "desktop",
+                            "team"
+                        ],
+                        "href": "https://www.espn.com/nfl/team/schedule/_/name/chi",
+                        "text": "Schedule",
+                        "shortText": "Schedule",
+                        "isExternal": false,
+                        "isPremium": false
+                    },
+                    {
+                        "language": "en",
+                        "rel": [
+                            "photos",
+                            "desktop",
+                            "team"
+                        ],
+                        "href": "https://www.espn.com/nfl/team/photos/_/name/chi",
+                        "text": "photos",
+                        "shortText": "photos",
+                        "isExternal": false,
+                        "isPremium": false
+                    },
+                    {
+                        "language": "en",
+                        "rel": [
+                            "tickets",
+                            "desktop",
+                            "team"
+                        ],
+                        "href": "https://www.vividseats.com/chicago-bears-tickets--sports-nfl-football/performer/159?wsUser=717",
+                        "text": "Tickets",
+                        "shortText": "Tickets",
+                        "isExternal": true,
+                        "isPremium": false
+                    },
+                    {
+                        "language": "en",
+                        "rel": [
+                            "draftpicks",
+                            "desktop",
+                            "team"
+                        ],
+                        "href": "https://www.espn.com/nfl/draft/teams/_/name/chi/chicago-bears",
+                        "text": "Draft Picks",
+                        "shortText": "Draft Picks",
+                        "isExternal": false,
+                        "isPremium": true
+                    },
+                    {
+                        "language": "en",
+                        "rel": [
+                            "transactions",
+                            "desktop",
+                            "team"
+                        ],
+                        "href": "https://www.espn.com/nfl/team/transactions/_/name/chi",
+                        "text": "Transactions",
+                        "shortText": "Transactions",
+                        "isExternal": false,
+                        "isPremium": false
+                    },
+                    {
+                        "language": "en",
+                        "rel": [
+                            "injuries",
+                            "desktop",
+                            "team"
+                        ],
+                        "href": "https://www.espn.com/nfl/team/injuries/_/name/chi",
+                        "text": "Injuries",
+                        "shortText": "Injuries",
+                        "isExternal": false,
+                        "isPremium": false
+                    },
+                    {
+                        "language": "en",
+                        "rel": [
+                            "depthchart",
+                            "desktop",
+                            "team"
+                        ],
+                        "href": "https://www.espn.com/nfl/team/depth/_/name/chi",
+                        "text": "Depth Chart",
+                        "shortText": "Depth Chart",
+                        "isExternal": false,
+                        "isPremium": false
+                    }
+                ],
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/chi.png"
+            },
+            "leagueName": "National Football League",
+            "leagueAbbreviation": "NFL",
+            "leagueShortName": "NFL",
+            "team": {
+                "id": "29",
+                "uid": "s:20~l:28~t:29",
+                "abbreviation": "CAR",
+                "links": [
+                    {
+                        "language": "en",
+                        "rel": [
+                            "clubhouse",
+                            "desktop",
+                            "team"
+                        ],
+                        "href": "https://www.espn.com/nfl/team/_/name/car/carolina-panthers",
+                        "text": "Clubhouse",
+                        "shortText": "Clubhouse",
+                        "isExternal": false,
+                        "isPremium": false
+                    },
+                    {
+                        "language": "en",
+                        "rel": [
+                            "roster",
+                            "desktop",
+                            "team"
+                        ],
+                        "href": "https://www.espn.com/nfl/team/roster/_/name/car/carolina-panthers",
+                        "text": "Roster",
+                        "shortText": "Roster",
+                        "isExternal": false,
+                        "isPremium": false
+                    },
+                    {
+                        "language": "en",
+                        "rel": [
+                            "stats",
+                            "desktop",
+                            "team"
+                        ],
+                        "href": "https://www.espn.com/nfl/team/stats/_/name/car/carolina-panthers",
+                        "text": "Statistics",
+                        "shortText": "Statistics",
+                        "isExternal": false,
+                        "isPremium": false
+                    },
+                    {
+                        "language": "en",
+                        "rel": [
+                            "schedule",
+                            "desktop",
+                            "team"
+                        ],
+                        "href": "https://www.espn.com/nfl/team/schedule/_/name/car",
+                        "text": "Schedule",
+                        "shortText": "Schedule",
+                        "isExternal": false,
+                        "isPremium": false
+                    },
+                    {
+                        "language": "en",
+                        "rel": [
+                            "photos",
+                            "desktop",
+                            "team"
+                        ],
+                        "href": "https://www.espn.com/nfl/team/photos/_/name/car",
+                        "text": "photos",
+                        "shortText": "photos",
+                        "isExternal": false,
+                        "isPremium": false
+                    },
+                    {
+                        "language": "en",
+                        "rel": [
+                            "tickets",
+                            "desktop",
+                            "team"
+                        ],
+                        "href": "https://www.vividseats.com/carolina-panthers-tickets--sports-nfl-football/performer/144?wsUser=717",
+                        "text": "Tickets",
+                        "shortText": "Tickets",
+                        "isExternal": true,
+                        "isPremium": false
+                    },
+                    {
+                        "language": "en",
+                        "rel": [
+                            "draftpicks",
+                            "desktop",
+                            "team"
+                        ],
+                        "href": "https://www.espn.com/nfl/draft/teams/_/name/car/carolina-panthers",
+                        "text": "Draft Picks",
+                        "shortText": "Draft Picks",
+                        "isExternal": false,
+                        "isPremium": true
+                    },
+                    {
+                        "language": "en",
+                        "rel": [
+                            "transactions",
+                            "desktop",
+                            "team"
+                        ],
+                        "href": "https://www.espn.com/nfl/team/transactions/_/name/car",
+                        "text": "Transactions",
+                        "shortText": "Transactions",
+                        "isExternal": false,
+                        "isPremium": false
+                    },
+                    {
+                        "language": "en",
+                        "rel": [
+                            "injuries",
+                            "desktop",
+                            "team"
+                        ],
+                        "href": "https://www.espn.com/nfl/team/injuries/_/name/car",
+                        "text": "Injuries",
+                        "shortText": "Injuries",
+                        "isExternal": false,
+                        "isPremium": false
+                    },
+                    {
+                        "language": "en",
+                        "rel": [
+                            "depthchart",
+                            "desktop",
+                            "team"
+                        ],
+                        "href": "https://www.espn.com/nfl/team/depth/_/name/car",
+                        "text": "Depth Chart",
+                        "shortText": "Depth Chart",
+                        "isExternal": false,
+                        "isPremium": false
+                    }
+                ],
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/car.png",
+                "isAllStar": false
+            }
+        }
+    },
+    "seasonTypes": [
+        {
+            "displayName": "2024 Regular Season",
+            "displayTeam": "CAR",
+            "categories": [
+                {
+                    "displayName": "Regular Season Stats",
+                    "type": "event",
+                    "splitType": "2",
+                    "events": [
+                        {
+                            "eventId": "401671640",
+                            "stats": [
+                                "11",
+                                "16",
+                                "93",
+                                "68.8",
+                                "5.8",
+                                "0",
+                                "2",
+                                "29",
+                                "2",
+                                "44.0",
+                                "4.0",
+                                "2",
+                                "3",
+                                "1.5",
+                                "0",
+                                "4"
+                            ]
+                        },
+                        {
+                            "eventId": "401671769",
+                            "stats": [
+                                "26",
+                                "38",
+                                "221",
+                                "68.4",
+                                "5.8",
+                                "2",
+                                "2",
+                                "21",
+                                "0",
+                                "78.9",
+                                "56.4",
+                                "3",
+                                "21",
+                                "7.0",
+                                "0",
+                                "18"
+                            ]
+                        },
+                        {
+                            "eventId": "401671872",
+                            "stats": [
+                                "18",
+                                "28",
+                                "136",
+                                "64.3",
+                                "4.9",
+                                "0",
+                                "1",
+                                "31",
+                                "3",
+                                "61.0",
+                                "27.9",
+                                "1",
+                                "3",
+                                "3.0",
+                                "0",
+                                "3"
+                            ]
+                        },
+                        {
+                            "eventId": "401671745",
+                            "stats": [
+                                "25",
+                                "40",
+                                "220",
+                                "62.5",
+                                "5.5",
+                                "2",
+                                "1",
+                                "39",
+                                "0",
+                                "83.3",
+                                "70.4",
+                                "3",
+                                "9",
+                                "3.0",
+                                "0",
+                                "6"
+                            ]
+                        },
+                        {
+                            "eventId": "401671658",
+                            "stats": [
+                                "26",
+                                "37",
+                                "319",
+                                "70.3",
+                                "8.6",
+                                "3",
+                                "0",
+                                "35",
+                                "2",
+                                "123.6",
+                                "86.4",
+                                "2",
+                                "-2",
+                                "-1.0",
+                                "0",
+                                "-1"
+                            ]
+                        },
+                        {
+                            "eventId": "401671734",
+                            "stats": [
+                                "0",
+                                "1",
+                                "0",
+                                "0.0",
+                                "0.0",
+                                "0",
+                                "0",
+                                "0",
+                                "0",
+                                "39.6",
+                                "1.7",
+                                "0",
+                                "0",
+                                "0.0",
+                                "0",
+                                "0"
+                            ]
+                        }
+                    ],
+                    "totals": [
+                        "106",
+                        "160",
+                        "989",
+                        "66.3",
+                        "6.2",
+                        "7",
+                        "6",
+                        "39",
+                        "7",
+                        "82.0",
+                        "56.5",
+                        "11",
+                        "34",
+                        "3.1",
+                        "0",
+                        "18"
+                    ]
+                }
+            ],
+            "summary": {
+                "displayName": "Regular Season Stats",
+                "stats": [
+                    {
+                        "displayName": "Totals",
+                        "stats": [
+                            "106",
+                            "160",
+                            "989",
+                            "66.3",
+                            "6.2",
+                            "7",
+                            "6",
+                            "39",
+                            "7",
+                            "82.0",
+                            "56.5",
+                            "11",
+                            "34",
+                            "3.1",
+                            "0",
+                            "18"
+                        ],
+                        "type": "total"
+                    }
+                ]
+            }
+        }
+    ],
+    "glossary": [
+        {
+            "abbreviation": "ATT",
+            "displayName": "Passing Attempts"
+        },
+        {
+            "abbreviation": "AVG",
+            "displayName": "Yards Per Pass Attempt"
+        },
+        {
+            "abbreviation": "CAR",
+            "displayName": "Rushing Attempts"
+        },
+        {
+            "abbreviation": "CMP",
+            "displayName": "Completions"
+        },
+        {
+            "abbreviation": "CMP%",
+            "displayName": "Completion Percentage"
+        },
+        {
+            "abbreviation": "INT",
+            "displayName": "Interceptions"
+        },
+        {
+            "abbreviation": "LNG",
+            "displayName": "Longest Pass"
+        },
+        {
+            "abbreviation": "QBR",
+            "displayName": "Adjusted QBR"
+        },
+        {
+            "abbreviation": "RTG",
+            "displayName": "Passer Rating"
+        },
+        {
+            "abbreviation": "SACK",
+            "displayName": "Total Sacks"
+        },
+        {
+            "abbreviation": "TD",
+            "displayName": "Passing Touchdowns"
+        },
+        {
+            "abbreviation": "YDS",
+            "displayName": "Passing Yards"
+        }
+    ]
+}

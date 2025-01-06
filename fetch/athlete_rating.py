@@ -51,7 +51,8 @@ def get_player_ratings(player_name: str) -> List[Rating]:
         
         rating_type = stat_name
         if rating_type:
-            ratings.append(Rating(rating_type, rating_value))
+            # Use keyword arguments to initialize Rating
+            ratings.append(Rating(rating_type=rating_type, rating=rating_value))
         else:
             Logger.warning(f"{stat_name} is not a recognized RatingType.")
     

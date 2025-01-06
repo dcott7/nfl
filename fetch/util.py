@@ -7,18 +7,25 @@ from typing import List, Dict, Any
 from python_models.logger import Logger
 
 def fetch_page(url: str) -> Dict[str, Any]:
-    """Fetch a single page and return its JSON data."""
-    
+    """Fetch a single page and return its JSON data, handling HTTP errors gracefully."""
     start_time = time.time()
-
-    response = requests.get(url)
-    response.raise_for_status()
-
-    elapsed_time = time.time() - start_time
-
-    Logger.info(f"Successfully fetched URL: {url} in {elapsed_time:.2f} seconds.")
-
-    return response.json()
+    
+    try:
+        response = requests.get(url)
+        response.raise_for_status()
+        elapsed_time = time.time() - start_time
+        Logger.info(f"Successfully fetched URL: {url} in {elapsed_time:.2f} seconds.")
+        return response.json()
+    except requests.exceptions.HTTPError as e:
+        # Print a warning message for 404 or other errors
+        if e.response.status_code == 404:
+            Logger.warning(f"Resource not found (404) for URL: {url}. Skipping.")
+        else:
+            Logger.error(f"HTTP error {e.response.status_code} for URL: {url}. Details: {e}")
+        return {}  # Return an empty dictionary to signal no data
+    except Exception as e:
+        Logger.error(f"An unexpected error occurred while fetching URL: {url}. Details: {e}")
+        return {}  # Return an empty dictionary to signal no data
 
 def fetch_all_refs(base_url: str) -> List[str]:
     """Fetch all references sequentially."""

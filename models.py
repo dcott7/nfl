@@ -16,19 +16,21 @@ class Athlete(BaseModel):
     __tablename__ = "athletes"
     
     # id = Column(String) should be espn id
-    name = Column(String)
+    first_name = Column(String)
+    last_name = Column(String)
     age = Column(Integer)
     height = Column(Integer)
     weight = Column(Integer)
     salary = Column(Float)
     is_practice_squad = Column(Boolean)
     
-    team_id: Mapped[int] = mapped_column(ForeignKey("teams.id"))
+    team_id: Mapped[int] = mapped_column(ForeignKey("teams.id"), nullable=True)
     team: Mapped["Team"] = relationship(back_populates="athletes")
     position_id: Mapped[int] = mapped_column(ForeignKey("positions.id"))
     position: Mapped["Position"] = relationship(back_populates="athletes")
     ratings: Mapped[list["Rating"]] = relationship(back_populates="athletes")
-    plays: Mapped[list["PlayParticipant"]] = relationship(back_populates="athlete")
+    playparticipants: Mapped[list["PlayParticipant"]] = relationship(back_populates="athlete")
+    teamhistory: Mapped[list["TeamHistory"]] = relationship(back_populates="athlete")
     
     
 class Team(BaseModel):
@@ -40,8 +42,21 @@ class Team(BaseModel):
     
     athletes: Mapped[list["Athlete"]] = relationship(back_populates="team")
     draftpicks: Mapped[list["DraftPick"]] = relationship(back_populates="team")
-    events: Mapped[list["Competitor"]] = relationship(back_populates="team")
+    events: Mapped[list["Competitor"]] = relationship(back_populates="team", overlaps="competitors")
+    competitors: Mapped[list["Competitor"]] = relationship(back_populates="team", overlaps="events")
+    teamhistory: Mapped[list["TeamHistory"]] = relationship(back_populates="team")
     
+    
+class TeamHistory(BaseModel):
+    __tablename__ = "teamhistory"
+    
+    athlete_id: Mapped[int] = mapped_column(ForeignKey("athletes.id"))
+    team_id: Mapped[int] = mapped_column(ForeignKey("teams.id"))
+    season = Column(Integer)
+
+    athlete: Mapped["Athlete"] = relationship("Athlete", back_populates="teamhistory")
+    team: Mapped["Team"] = relationship("Team", back_populates="teamhistory")
+
     
 class Position(BaseModel):
     __tablename__ = "positions"
@@ -70,9 +85,11 @@ class Competitor(BaseModel):
 
     # Foreign key relationships
     team_id: Mapped[int] = mapped_column(ForeignKey("teams.id"))
-    team: Mapped["Team"] = relationship(back_populates="competitions")
+    team: Mapped["Team"] = relationship(back_populates="competitors")
     event_id: Mapped[int] = mapped_column(ForeignKey("events.id"))
     event: Mapped["Event"] = relationship(back_populates="competitors")
+    competition_id: Mapped[int] = mapped_column(ForeignKey("competitions.id"))
+    competition: Mapped["Competition"] = relationship(back_populates="competitors")
         
         
 class Venue(BaseModel):
@@ -86,7 +103,7 @@ class Venue(BaseModel):
     state = Column(String)
     zip_code = Column(Integer)
     
-    competitions: Mapped[list["Competition"]] = relationship()
+    competitions: Mapped[list["Competition"]] = relationship(back_populates="venue")
 
 
 class PlayParticipant(BaseModel):
@@ -98,8 +115,8 @@ class PlayParticipant(BaseModel):
     play_id: Mapped[int] = mapped_column(ForeignKey("plays.id"))
     play: Mapped["Play"] = relationship(back_populates="participants")
     athlete_id: Mapped[int] = mapped_column(ForeignKey("athletes.id"))
-    athlete: Mapped["Athlete"] = relationship(back_populates="plays")
-    stats: Mapped[list["Stat"]] = relationship()
+    athlete: Mapped["Athlete"] = relationship(back_populates="playparticipants")
+    stats: Mapped[list["Stat"]] = relationship(back_populates="playparticipant")
 
 
 class Play(BaseModel):
@@ -125,7 +142,7 @@ class Play(BaseModel):
     
     drive_id: Mapped[int] = mapped_column(ForeignKey("drives.id"))
     drive: Mapped["Drive"] = relationship(back_populates="plays")
-    participants: Mapped[list["PlayParticipant"]] = relationship()
+    participants: Mapped[list["PlayParticipant"]] = relationship(back_populates="play")
 
 class Drive(BaseModel):
     __tablename__ = "drives"
@@ -144,7 +161,7 @@ class Drive(BaseModel):
     
     competition_id: Mapped[int] = mapped_column(ForeignKey("competitions.id"))
     competition: Mapped["Competition"] = relationship(back_populates="drives")
-    plays: Mapped[list["Play"]] = relationship()
+    plays: Mapped[list["Play"]] = relationship(back_populates="drive")
     
 
 class Competition(BaseModel):
@@ -153,12 +170,12 @@ class Competition(BaseModel):
     # id = Column(String) should be espn id
     date = Column(DateTime)
     
-    event_id = Mapped[int] = mapped_column(ForeignKey("events.id"))
+    event_id: Mapped[int] = mapped_column(ForeignKey("events.id"))
     event: Mapped["Event"] = relationship(back_populates="competition")
-    competitors: Mapped[list["Competitor"]] = relationship()
-    venue_id = Mapped[int] = mapped_column(ForeignKey("venues.id"))
+    competitors: Mapped[list["Competitor"]] = relationship(back_populates="competition")
+    venue_id: Mapped[int] = mapped_column(ForeignKey("venues.id"))
     venue: Mapped["Venue"] = relationship(back_populates="competitions")
-    drives: Mapped[list["Drive"]] = relationship()
+    drives: Mapped[list["Drive"]] = relationship(back_populates="competition")
         
         
 class DraftPick(BaseModel):
@@ -181,7 +198,7 @@ class Weather(BaseModel):
     gust = Column(Integer)
     precipitation = Column(Integer)
     
-    events: Mapped[list["Event"]] = relationship()
+    events: Mapped[list["Event"]] = relationship(back_populates="weather")
     
     
 class Event(BaseModel):
@@ -193,10 +210,10 @@ class Event(BaseModel):
     name = Column(String)
 
     # Relationships
+    weather_id: Mapped[int | None] = mapped_column(ForeignKey("weathers.id"), nullable=True)
+    weather: Mapped["Weather"] = relationship(back_populates="events")
     competitors: Mapped[list["Competitor"]] = relationship(back_populates="event", cascade="all, delete-orphan")
     competition: Mapped["Competition"] = relationship(back_populates="event")
-    weather_id: Mapped[int] = mapped_column(ForeignKey("weathers.id"))
-    weather: Mapped["Weather"] = relationship(back_populates="events")
     
     
 class Stat(BaseModel):
@@ -207,5 +224,5 @@ class Stat(BaseModel):
     abbreviation = Column(String)
     value = Column(Float)
     
-    play_id: Mapped[int] = mapped_column(ForeignKey("plays.id"))
-    play: Mapped["Play"] = relationship()
+    playparticipant_id: Mapped[int] = mapped_column(ForeignKey("playparticipants.id"))
+    playparticipant: Mapped["PlayParticipant"] = relationship(back_populates="stats")
