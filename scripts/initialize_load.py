@@ -11,7 +11,7 @@ from models import Base
 Global parameters.
 """
 CURRENT_YEAR = datetime.datetime.now().year
-START_YEAR = 2020
+START_YEAR = 2010
 
 URL_BASE = 'https://sports.core.api.espn.com/v2/sports/football/leagues/nfl'
 TEAMS_REF_PAGE = URL_BASE + '/teams'
