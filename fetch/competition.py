@@ -32,7 +32,7 @@ def create_competition(session: Session, competition_data: Dict[str, Any], event
     # Create related objects (venue, competitors, and drives)
     venue = create_venue(session, competition_data.get('venue', {}))
     competitors = create_competitors(session, competitors_data, event_id, competition_id)
-    drives = create_drives(session, drives_data, competition_id)
+    drives = create_drives(session, drives_data, competition_id) if drives_data else None
 
     # Create the Competition object
     competition = Competition(

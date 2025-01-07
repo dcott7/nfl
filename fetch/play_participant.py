@@ -4,6 +4,7 @@ from models import PlayParticipant
 from fetch.stat import create_stats
 from fetch.util import fetch_page
 from fetch.athlete import create_athlete
+from models import Athlete
 
 def create_participant(session: Session, participant_data: Dict[str, Any], play_id) -> PlayParticipant:
     """Creates and persists a PlayParticipant object in the database.
@@ -15,11 +16,15 @@ def create_participant(session: Session, participant_data: Dict[str, Any], play_
     Returns:
         Persisted PlayParticipant object.
     """
+    
+    athlete_url = participant_data.get('athlete', {}).get('$ref', '')
+    athlete_id = athlete_url.split('/')[-1].replace('?lang=en&region=us','')
+    
+    athlete = session.query(Athlete).filter_by(id=athlete_id).first()
+    if not athlete:
+        athlete_data = fetch_page(athlete_url)
+        athlete = create_athlete(session, athlete_data, None)
 
-    athlete_data = fetch_page(participant_data.get('athlete', {}).get('$ref', ''))
-    athlete = create_athlete(session, athlete_data, None)
-
-    athlete_id = athlete.id
     order = int(participant_data['order'])
 
     existing_participant = session.query(PlayParticipant).filter_by(athlete_id=athlete_id, order=order).first()

@@ -14,8 +14,6 @@ class BaseModel(Base):
 
 class Athlete(BaseModel):
     __tablename__ = "athletes"
-    
-    # id = Column(String) should be espn id
     first_name = Column(String)
     last_name = Column(String)
     age = Column(Integer)
@@ -35,8 +33,6 @@ class Athlete(BaseModel):
     
 class Team(BaseModel):
     __tablename__ = "teams"
-    
-    # id = Column(String) should be espn id
     name = Column(String)
     cap_room = Column(Float)
     
@@ -95,7 +91,6 @@ class Competitor(BaseModel):
 class Venue(BaseModel):
     __tablename__ = "venues"
     
-    # id = Column(String) should be espn id
     name = Column(String)
     grass = Column(Boolean)
     indoor = Column(Boolean)
@@ -122,7 +117,6 @@ class PlayParticipant(BaseModel):
 class Play(BaseModel):
     __tablename__ = "plays"
     
-    # id = Column(String) should be espn id
     sequence_number = Column(Integer)
     play_type = Column(String)
     description = Column(String)
@@ -140,14 +134,13 @@ class Play(BaseModel):
     start_yards_to_endzone = Column(Integer)
     end_yards_to_endzone = Column(Integer)
     
-    drive_id: Mapped[int] = mapped_column(ForeignKey("drives.id"))
+    drive_id: Mapped[int] = mapped_column(ForeignKey("drives.id"), nullable=True)
     drive: Mapped["Drive"] = relationship(back_populates="plays")
     participants: Mapped[list["PlayParticipant"]] = relationship(back_populates="play")
 
 class Drive(BaseModel):
     __tablename__ = "drives"
     
-    # id = Column(String) should be espn id
     description = Column(String)
     yards = Column(Integer)
     is_score = Column(Boolean)
@@ -166,8 +159,6 @@ class Drive(BaseModel):
 
 class Competition(BaseModel):
     __tablename__ = "competitions"
-    
-    # id = Column(String) should be espn id
     date = Column(DateTime)
     
     event_id: Mapped[int] = mapped_column(ForeignKey("events.id"))
@@ -209,7 +200,6 @@ class Event(BaseModel):
     season_type = Column(Integer)
     name = Column(String)
 
-    # Relationships
     weather_id: Mapped[int | None] = mapped_column(ForeignKey("weathers.id"), nullable=True)
     weather: Mapped["Weather"] = relationship(back_populates="events")
     competitors: Mapped[list["Competitor"]] = relationship(back_populates="event", cascade="all, delete-orphan")

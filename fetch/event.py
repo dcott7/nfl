@@ -37,7 +37,7 @@ def create_event(session: Session, event_data: Dict[str, Any]) -> Event:
 
     weather = create_weather(session, weather_data) if weather_data else None
     competition = create_competition(session, competition_data, event_id) if competition_data else None
-    weather_id = weather_data['id'] if weather_data['id'] else None
+    weather_id = weather_data['id'] if weather_data.get('id','') else None
     
     print(weather)
 
@@ -51,7 +51,6 @@ def create_event(session: Session, event_data: Dict[str, Any]) -> Event:
         competition = competition
     )
 
-    # Persist the Event object to the database
     session.add(event)
     session.commit()
 
